@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms in HTML5</h1>
+    <form action="#">
+        <label for="name">Name</label>
+        <input type="text" id="name" maxlength="20" value="2305C1" readonly /> <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" /> <br>
+        <label for="age">Enter your age</label>
+        <input type="text" name="age" id="age">
+        <fieldset>
+            <legend>Personel </legend>
+            <input type="radio" name="gender" id="gender" value="male">
+            <label for="gender">Male</label>
+
+            <input type="radio" name="gender" id="a" value="female">
+            <label for="a">Female</label>
+        </fieldset>   
+        
+
+        <input type="checkbox" name="eng" id="eng" checked>
+        <label for="eng">Swimming</label>
+
+        <input type="checkbox" name="math" id="math">
+        <label for="math">Football</label>
+
+        <input type="checkbox" name="urdu" id="urdu">
+        <label for="urdu">Cricket</label>
+    
+        <br>
+        Select your Fav Country
+        <select name="country">
+            <option value="Pak">Pakistan</option>
+            <option value="Afg">Afg</option>
+            <option value="Ch">China</option>
+            <option value="Amr">America</option>
+            <option value="Ca" selected>Canada</option>
+            <option value="Ind">India</option>
+        </select>
+
+        <p>upload your file</p>
+        <input type="file" name="" id="">
+
+        <input type="submit" value="Login">
+        <input type="button" value="Press">
+        <input type="reset">
+
+        <br>
+        <label> Downloading status: </label> 
+        <progress value="45" max="100"> </progress>
+
+        <br>
+        <label for="date">Date:</label>
+        <input type="date" name="" id="date">
+
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <br>
+        <input type="range" name="" id="">
+
+    </form>
+</body>
+
+</html>
