@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 100px;
+    background-color: brown;
+}
+.main{
+    height: 600px;
+    background-image: url(https://img.freepik.com/free-photo/gym-with-dumbbells-floor_1340-37013.jpg?t=st=1689313337~exp=1689316937~hmac=eecc6d8dd01b2dcd00a49f5e3e03af2b473097079290c7e7b1e5a655fb8d4b4f&w=996);
+    background-size: cover;   
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.main h1{
+    color: darkmagenta;
+    padding-top: 200px;
+}
+
+.main span{
+    color: aqua;
+}
+.main p{
+    color: white;
+}
+.main input[type=btn]{
+    background-color: burlywood;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: black;
+    transition-duration: 1s;
+}
+
+.main input[type=btn]:hover{
+    background-color: green;
+    color: blueviolet;
+    cursor: pointer;
+}
