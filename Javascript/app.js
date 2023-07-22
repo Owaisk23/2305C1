@@ -142,13 +142,120 @@
 
 // // relationaal operator 
 
-console.log('=========================')
+// console.log('=========================')
 
-var number1 = 6; // number
-var number2 = '6'; // string
+// var number1 = 6; // number
+// var number2 = '6'; // string
 
 
-var result = number1 !== number2;
+// var result = number1 !== number2;
 
-console.log(result); // true
+// console.log(result); // true
+
+
+// var fname = prompt('Enter name.');
+// //USECASE OF UNARY OPERATOR
+// var num = +prompt('Enter number');
+// console.log(typeof fname);
+
+// //
+// console.log(typeof num);
+
+// conditional statements 
+// if-else statement
+// var marks = 56;
+
+// if(marks>=50){
+
+//     alert('you are passed')
+
+// }
+// else{
+//     alert('you are failed')
+// }
+
+
+
+// // prompt 
+
+// var Name = prompt('Enter Your Name');
+// var Marks = prompt('Enter you Marks', '20');
+
+// if(Marks > 50){
+//     // Owais, your marks is 70;
+//     alert(Name + ', your marks is ' + Marks );
+// }else {
+//     alert(Name + ' is Failed')
+// }
+
+// if, else-if, else
+// var marks = +prompt('Enter your marks');
+
+// if (marks > 80) {
+//     alert('A grade')
+// } else if(marks < 80){
+//     alert('B Grade')
+// }
+// else{
+//     alert('wrong value')
+// }
+
+
+// nested if
+// var marks = 45;
+//     //true       true
+// if(marks>80 && marks<100){
+//     alert('GRADE A')
+//     if(marks>=90){
+//         alert('Include Bonus')
+//     }else{
+//         alert('No Bonus')
+//     }
+
+// }
+// else if(marks>50 && marks<80){
+//     alert('GRADE B')
+// }else{
+//     alert('Failed or invalid marks')
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
