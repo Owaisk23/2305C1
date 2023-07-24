@@ -219,6 +219,213 @@
 //     alert('Failed or invalid marks')
 // }
 
+// syntax
+
+// switch (key) {
+//     case value:
+
+//         break;
+
+//     default:
+//         break;
+// }
+
+// var days = +prompt('Enter number to find a Day',1);
+
+// switch (days) {
+//     case 1:
+//         alert('Monday')
+//         break;
+
+//     case 2:
+//         alert('Tuesday')
+//         break;
+
+//     case 3:
+//         alert('Wednesday')
+//         break;
+       
+//     case 4:
+//         alert('Thursday')
+//         break;
+
+//     case 5:
+//         alert('Friday')
+//         break;
+
+//     case 6:
+//         alert('Saturday')
+//         break;
+
+//     default:
+//         alert('Holiday')
+//         break;
+// }
+
+//FOR LOOP
+
+// for loop has three statements
+// i) initialization --> run only one time before iteration.
+// ii) condition --> run before iteration
+// iii) expression --> run after iteration
+
+// for (initialization; condition ; expression){
+//     code to be executed;
+// }
+
+// for(i=1; i <=100; i++ ){
+//     console.log(i);
+// }
+
+// user input.
+// var num = +prompt("Enter number for table", 2);
+
+// for(var i = 1; i<=50; i++){
+
+//         console.log(num + "x" + i + "=" + num * i);
+// }
+
+
+//ARRAYS
+
+// var student1 = 'Ibrahim';
+// var age1 = 19;
+
+// var student2 = 'Asim';
+// var age2 = 18;
+
+                    //0       1         2       3       4      5
+// var studentNames = ['Ashar','Owais','Talha', 'Saima','Fizza','John', 'Abdullah', 'Ebad'];
+// var ages = [23,10,12,30,34,23,11];
+// console.log(studentNames[0]); //AShar
+// console.log(ages[0]); //23
+// console.log(studentNames[1]);
+// console.log(ages[1]);
+// console.log(studentNames[3]);
+// console.log(ages[3]);
+
+// for (let i = 0; index < array.length; index++) {        
+//}
+
+// for(var i = 0; i<studentNames.length; i++){
+
+//         console.log('Student Name: ' + studentNames[i])
+    
+// }
+
+// for(var i = 0; i < ages.length; i++){
+
+//     console.log('Students Age is: ' + ages[i])
+
+// }
+
+//While and do-while loops 
+
+// var i = 11;
+
+// while (i<100) {
+//      console.log(i);
+//      i++
+// }
+
+
+// var i =11;
+
+// do {
+//      console.log(i)
+//      i++
+// } while (i<10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log(ages)
+// console.log(studentNames)
+
+// console.log(studentNames[0])
+// console.log(studentNames[1])
+// console.log(studentNames[2])
+// console.log(studentNames[3])
+// console.log(studentNames[4])
+// console.log(studentNames[5])
+
+
+
+// var countries = ['USA', 'PAK','INDIA','SPAIN'];
+// console.log(countries[0]);
+
+// countries[0] = 'IRAN';
+// countries[4] = 'Bangladesh';
+
+// console.log(countries);
+// var temperatures = [22,32,45,30];
+// console.log(temperatures)
+
+// temperatures.unshift(10);
+// console.log(temperatures)
+
+
+
+
+// for(var i=0; i<temperatures.length;i++){
+//     console.log(temperatures[i])
+// }
+
+
+
+// what is return
+
+
+// var countries = ['USA', 'PAK','INDIA','SPAIN'];
+// console.log(countries);
+
+
+// var pushReturn = countries.push('BAN');
+
+// console.log(pushReturn);
+// console.log(countries);
+
+
+
+
 
 
 
