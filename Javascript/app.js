@@ -337,100 +337,175 @@
 // } while (i<10);
 
 
+// Arrays Methods
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// console.log(ages)
-// console.log(studentNames)
-
-// console.log(studentNames[0])
-// console.log(studentNames[1])
-// console.log(studentNames[2])
-// console.log(studentNames[3])
-// console.log(studentNames[4])
-// console.log(studentNames[5])
-
-
-
-// var countries = ['USA', 'PAK','INDIA','SPAIN'];
-// console.log(countries[0]);
-
-// countries[0] = 'IRAN';
-// countries[4] = 'Bangladesh';
+// var countries = ['Pak', 'Afq', 'Ind', 'China'];
 
 // console.log(countries);
-// var temperatures = [22,32,45,30];
-// console.log(temperatures)
 
-// temperatures.unshift(10);
-// console.log(temperatures)
+// var updateCountries = countries.push('Ban');
+// // var updateCountries = countries.pop();
 
-
+// console.log(updateCountries);
 
 
-// for(var i=0; i<temperatures.length;i++){
-//     console.log(temperatures[i])
+// var temp = [23, 30, 15, 35, 50];
+
+// console.log(temp);
+
+// //var updateTemp = temp.shift();
+// var updateTemp = temp.unshift(40);
+
+// console.log(updateTemp);
+
+// function delaration
+
+// function print(){
+//     console.log('Hello in Func')
+//     console.log('Umeed hai apko samjh ayega')
+//     console.log('Focus rakhiyega samjh ajayega')
 // }
 
 
 
-// what is return
+// // function calling
+
+// print();
 
 
-// var countries = ['USA', 'PAK','INDIA','SPAIN'];
-// console.log(countries);
+// function add(){
+//     console.log(5+2);
+
+// }
+
+// add();
+
+// func with arguments and parameters
+// function sum(num1, num2){
+//     var num = num1 + num2;
+//     console.log('Sum result is: '+ num);    
+// }
+
+// //func calling
+
+// sum(42, 50);
+
+// // func with arguments and parameters
+// function sub(num1, num2){
+//     var num = num1 - num2;
+//     console.log('Subtract result is: ' + num);    
+// }
+
+// //func calling
+
+// sub(90, 50);
+
+// AGE CALCULATOR:
+
+// function ageCal(){
+//     var birthYear = +prompt('Enter your birth year')
+//     var currYear = 2023;
+
+//     var age = currYear - birthYear; 
+
+//     alert('Your age is: ' + age);
+// }
 
 
-// var pushReturn = countries.push('BAN');
-
-// console.log(pushReturn);
-// console.log(countries);
-
+// function greet(){
+//     alert('hello, good morning!')
+// }
 
 
 
 
+// function getInput(){
+
+//     var input = prompt('Enter Name');
+
+//     showOutput();
+// }
+
+
+// function showOutput(){
+//     alert('Hi!')
+// }
 
 
 
 
+
+// function car(){
+//      // get input from user 
+//     var carName = prompt("Enter car name ");
+    
+//     compliment();
+// }   
+
+// function compliment(){
+//     alert("Your car is beautiful");
+// }
+
+
+// var cities = ["Khi", "Hyd", "Isb", "Lhr", "Swat"]
+// //slice & splice
+// console.log(cities[2]);
+
+
+
+
+
+
+// var num = +prompt("Enter number for table");
+
+// for(var i = 1; i <= 10; i++){
+//     //              2 x 1 = 2
+//     console.log(num + "x" + i + "=" + num*i);    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var Car = {
+//     // property name : property value
+//     // name:"Civic",
+
+//     name : ["Civic","Alto","Corola"],
+//     color: "Purple",
+//     price: 50000,
+
+
+//     // info: function(){
+//     //     console.log(this.name,this.color);
+//     // }
+// }
+
+// console.log(Car);
+
+
+// var Student = new Object();
+
+// Student.name = "Abc"
+// console.log(Student);
 
 
 
