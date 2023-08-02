@@ -433,9 +433,6 @@
 // }
 
 
-
-
-
 // function car(){
 //      // get input from user 
 //     var carName = prompt("Enter car name ");
@@ -453,37 +450,11 @@
 // console.log(cities[2]);
 
 
-
-
-
-
 // var num = +prompt("Enter number for table");
 
 // for(var i = 1; i <= 10; i++){
 //     //              2 x 1 = 2
 //     console.log(num + "x" + i + "=" + num*i);    
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // var Car = {
 //     // property name : property value
@@ -506,6 +477,24 @@
 
 // Student.name = "Abc"
 // console.log(Student);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
