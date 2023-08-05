@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    border: 1px solid black;
+    height: 100vh;
+}
+
+#darkModeImg{
+    width: 100px;
+    float: right;
+}
+#lightModeImg{
+    width: 100px;
+    float: right;
+
+    display: none;
+
+}
+
