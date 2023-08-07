@@ -478,12 +478,16 @@
 // Student.name = "Abc"
 // console.log(Student);
 
+var fname = "Owais";
+var age = 23;
+var gender = "Male"
+// console.log("My name is " + fname + " & age is " + age);
 
 
 
-
-
-
+//template literal
+console.log(`My name is ${fname} and another info is below
+    ${age} & ${gender}`)
 
 
 
