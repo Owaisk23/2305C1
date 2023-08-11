@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Dancing+Script:wght@400;500&family=Great+Vibes&family=Mr+Dafoe&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<style>
+    .calss {
+        font-family: 'Alfa Slab One', cursive;
+        border: 20px solid rgb(230, 150, 92);
+        background-color: rgb(228, 150, 95);
+        font-size: large;
+        text-align: center;
+        font-size: x-large;
+        color: white;
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+        background-color: lightgray;
+        justify-content: space-between;
+    }
+
+    .container div {
+        background-color: white;
+        width: 240px;
+        margin: 10px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 15px;
+        border: 2px solid black;
+        color: coral;
+
+    }
+
+    .card_container {
+        background-color: gray;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .card {
+        background-color: white;
+        border: 1px solid black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 300px;
+        height: 450px;
+    }
+
+    .img_div img {
+        width: 100%;
+
+    }
+
+    .card_butn {
+        border: 1px solid black;
+        margin-top: 60px;
+        text-align: center;
+
+    }
+
+    .card_butn_sec {
+        border: 1px solid black;
+        margin-top: 45px;
+        text-align: center;
+
+    }
+
+    .border_third {
+        background-color: chocolate;
+        border: 10px solid chocolate;
+    }
+
+    .fifth p {
+        text-align: center;
+        color: white;
+    }
+
+
+    /* X-Small devices (portrait phones, less than 500px) */
+    @media (max-width: 900px) {
+        .calss {
+            color: yellow;
+            font-size: 32px;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .calss {
+            color: green;
+            font-size: 32px;
+
+        }
+    }
+
+    @media (max-width: 500px) {
+        .calss {
+            color: red;
+            font-size: 32px;
+        }
+
+        .card {
+            width: 100%;
+            height: 500px;
+        }
+    }
+</style>
+
+<body>
+    <p class="calss">Power Grid:Store or Homepage</p>
+    <div class="container">
+        <div>Home</div>
+        <div>About</div>
+        <div>Blog</div>
+        <div>Creeers</div>
+        <div>contact us</div>
+    </div>
+    <div class="card_container">
+        <div class="card">
+            <div class="img_div">
+                <img src="https://images.news18.com/ibnlive/uploads/2021/08/1628438277_islamic-new-year.jpg" alt="">
+            </div>
+            <div class="card_content">
+                <p>This is some awesome content that is on the page.</p>
+            </div>
+            <div class="card_butn">
+                Go Somewhere
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="img_div">
+                <img src="https://images.unsplash.com/photo-1601328305394-1a8f0be2fdc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80"
+                    alt="">
+            </div>
+            <div class="card_content">
+                <p>This is more content then the previous box, but less then the next.</p>
+            </div>
+            <div class="card_butn">
+                Click Me
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="img_div">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg?crop=0.630xw:1.00xh;0.186xw,0&resize=1200:*"
+                    alt="">
+            </div>
+            <div class="card_content">
+                <p>We have lots of here to show that content can grow, size if use flexbox. Even if has it we with the
+                    other sections.</p>
+            </div>
+            <div class="card_butn_sec">
+                Do Something
+            </div>
+
+        </div>
+
+    </div>
+    <div class="border_third">
+        <div class="fifth">
+            <p>Copyright@2016</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
