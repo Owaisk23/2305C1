@@ -1,16 +1,15 @@
 .container{
     border: 5px rebeccapurple solid;
     display: flex;
-    /* width: 500px; */
-    height: 40vh;
+    width: 500px;
+    height: 90vh;
     /* flex-direction: column-reverse;
     justify-content: flex-end; */
     /* justify-content: center;
-    align-items: center
-     */
+    align-items: center */
+    
     /* flex-wrap: wrap; */
     /* flex-flow: row wrap; */
-
 
 }
 .flex-item{
@@ -28,7 +27,7 @@
 .item2{
     background-color: rebeccapurple;
     /* order: 4; */
-    flex-shrink: 3;
+    /* flex-shrink: 3; */
 }
 .item3{
     background-color: aliceblue;
