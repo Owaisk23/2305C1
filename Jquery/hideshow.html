@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    body{
+        color: rgb(0, 188, 239);
+        background-image: url("../Bootstrap/Carousel&cards/images/bg4.jpg");
+        background-size: cover;
+        text-align: center;
+    }
+   h1,h2 {
+        color:white;
+    }
+    .box{
+        border: 2px outset aqua;
+        background-color: rgba(11, 11, 11, 0.575);
+        
+    }
+
+    button{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        color: aqua;
+        background-color: black;
+        border: 2px outset aqua;
+        transition: all .2s 0.2s linear;
+    }
+    
+    /* button:hover{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        color: rgb(6, 6, 6);
+        background-color: rgb(0, 234, 234);
+        border: 2px outset rgb(14, 14, 14);
+        text-transform: uppercase;
+        text-decoration: underline;
+        transform: rotate(45deg) translate(50px,50px) skew(20deg);;
+      
+
+    } */
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: aqua
+     
+    }
+    .navbar a{
+        
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 28px;
+    }
+
+    @media only screen and (max-width:400px){
+        .navbar{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+
+    </style>
+    
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="navitem"><a href="#">Home</a></div>
+        <div class="navitem"><a href="#">About</a></div>
+        <div class="navitem"><a href="#">Services</a></div>
+        <div class="navitem"><a href="#">Contact</a></div>
+    </div>
+    <div>
+        <h1>Introduction to Jquery</h1>
+    </div>
+
+    <div class="box">
+        <h2>Hide/Show</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi architecto veniam optio obcaecati quaerat! Accusantium necessitatibus odit, ipsam consequuntur ducimus laudantium, eos enim rem voluptate impedit quibusdam sapiente omnis?</p>
+    </div></section>
+    <button id="btn">hide</button>
+    <button id="btn2">Hide and Show</button>
+     <button id="btn1">show</button>
+    
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- <script src="./jquery-3.7.0.min.js"></script> -->
+    <script>
+        $(document).ready(function(){
+
+            $("#btn").click(function(){
+                
+            $(".box").hide();
+                
+
+            })
+            $("#btn1").click(function(){
+                
+            $(".box").show();
+                
+
+            })
+
+            $("#btn2").click(function(){
+                
+            $(".box").toggle(); 
+                
+
+            alert($(".box").text())
+            $(".box").html("<h1>hi</h1>")
+          
+        })
+    });
+    </script>
+</body>
+</html>

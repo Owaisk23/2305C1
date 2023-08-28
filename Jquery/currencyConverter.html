@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ .checkDiv {
+            width: 200px;
+            height: 200px;
+            border: 2px solid pink;
+            background-color: red;
+            position: relative;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>USD to PKR</h1>
+
+    <label>ENTER IN USD</label>
+    <input type="text" id="usdInput" />
+
+    <br>
+
+    <span id="pkrConvert"></span>
+
+    <!-- <button class="animateBtn">Click here</button> -->
+        <!-- <div class="checkDiv">
+
+        </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#usdInput").keyup(function () {
+                var inputValue = $("#usdInput").val();
+                var result = inputValue * 272;
+
+                $("#pkrConvert").text("PKR: " + result);
+
+                $("h1").css("background-color", "red")
+
+                // console.log("USD to PKR "+ result);
+            })
+
+
+            // .on({click:function , dblclick:function})  //multiple events 
+
+            // $(".checkDiv").on(
+            //    { 
+            //     click:function(){
+            //         $(".checkDiv").css("background-color","aqua");
+            //     } ,
+            //     dblclick:function(){
+            //        $(".checkDiv").css("background-color","black");
+            //        $(".checkDiv").css("color","white");
+                   
+            //     },
+            //     mouseleave:function(){
+            //        $(".checkDiv").css("background-color","red");
+
+            //    }
+            //  }
+            // );  
+
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg-red{
+            background-color: red;
+        }
+        .bg-green{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- li (before) -->
+    <ol class="bg-red">
+        <!-- li (prepend) -->
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, perspiciatis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, perspiciatis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, perspiciatis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, perspiciatis.</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, perspiciatis.</li>
+        <!-- li (append) -->
+    </ol>
+    <!-- li (after) -->
+    <button class="addBtn">add Item</button>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.addBtn').click(function(){
+
+                // $('ol').append("<li>lorem ipsum dolor sit </li>"); 
+                // $('ol').prepend("<li>lorem ipsum dolor sit </li>");
+                //  $('ol').before("<li>lorem ipsum dolor sit </li>");
+                //  $('ol').after("<li>lorem ipsum dolor sit </li>");
+
+                // $("ol").addClass("bg-green")
+                // $("ol").removeClass("bg-green")
+                $("ol").toggleClass("bg-green")  
+            })
+        })
+    </script>
+</body>
+</html>
