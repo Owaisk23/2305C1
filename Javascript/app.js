@@ -58,8 +58,8 @@
 // console.log(typeof(data));
 
 
-// var a = null;
-// console.log(a);
+var a = null;
+console.log(a);
 // const num = 23;
 // num = 33;
 
@@ -485,8 +485,8 @@ var gender = "Male"
 
 
 //template literal
-console.log(`My name is ${fname} and another info is below
-    ${age} & ${gender}`)
+// console.log(`My name is ${fname} and another info is below
+//     ${age} & ${gender}`)
 
 
 

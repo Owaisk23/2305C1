@@ -1,38 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style> 
-    body{
-        color: rgb(0, 188, 239);
-        background-image: url("../Bootstrap/Carousel&cards/images/bg4.jpg");
-        background-size: cover;
-        text-align: center;
-    }
-   h1,h2 {
-        color:white;
-    }
-    .box{
-        border: 2px outset aqua;
-        background-color: rgba(11, 11, 11, 0.575);
-        
-    }
+    <style>
+        body {
+            color: rgb(0, 188, 239);
+            background-image: url("../Bootstrap/Carousel&cards/images/bg4.jpg");
+            background-size: cover;
+            text-align: center;
+        }
 
-    button{
-        margin: 10px;
-        padding: 10px;
-        border-radius: 10px;
-        color: aqua;
-        background-color: black;
-        border: 2px outset aqua;
-        transition: all .2s 0.2s linear;
-    }
-    
-    /* button:hover{
+        h1,
+        h2 {
+            color: white;
+        }
+
+        .box {
+            border: 2px outset aqua;
+            background-color: rgba(11, 11, 11, 0.575);
+
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            color: aqua;
+            background-color: black;
+            border: 2px outset aqua;
+            transition: all .2s 0.2s linear;
+        }
+
+        /* button:hover{
         margin: 10px;
         padding: 10px;
         border-radius: 10px;
@@ -45,30 +48,30 @@
       
 
     } */
-    .navbar{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: aqua
-     
-    }
-    .navbar a{
-        
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        font-size: 28px;
-    }
-
-    @media only screen and (max-width:400px){
-        .navbar{
-            flex-direction: column;
-            flex-wrap: wrap;
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: aqua
         }
-    }
 
+        .navbar a {
+
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 28px;
+        }
+
+        @media only screen and (max-width:400px) {
+            .navbar {
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+        }
     </style>
-    
+
 </head>
+
 <body>
 
     <div class="navbar">
@@ -83,40 +86,45 @@
 
     <div class="box">
         <h2>Hide/Show</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi architecto veniam optio obcaecati quaerat! Accusantium necessitatibus odit, ipsam consequuntur ducimus laudantium, eos enim rem voluptate impedit quibusdam sapiente omnis?</p>
-    </div></section>
-    <button id="btn">hide</button>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi architecto veniam optio obcaecati
+            quaerat! Accusantium necessitatibus odit, ipsam consequuntur ducimus laudantium, eos enim rem voluptate
+            impedit quibusdam sapiente omnis?</p>
+    </div>
+    </section>
+    <button id="hide">hide</button>
     <button id="btn2">Hide and Show</button>
-     <button id="btn1">show</button>
-    
-     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <button id="show">show</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <!-- <script src="./jquery-3.7.0.min.js"></script> -->
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
 
-            $("#btn").click(function(){
-                
-            $(".box").hide();
-                
+            $("#hide").click(function () {
 
-            })
-            $("#btn1").click(function(){
-                
-            $(".box").show();
-                
+                $(".box").hide();
+
 
             })
+            $("#show").click(function () {
 
-            $("#btn2").click(function(){
-                
-            $(".box").toggle(); 
-                
+                $(".box").show();
 
-            alert($(".box").text())
-            $(".box").html("<h1>hi</h1>")
-          
-        })
-    });
+
+            })
+
+            $("#btn2").click(function () {
+
+                $(".box").toggle();
+
+
+                alert($(".box").text())
+                $(".box").html("<h1>hi</h1>")
+
+            })
+        });
     </script>
 </body>
+
 </html>

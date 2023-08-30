@@ -1,0 +1,22 @@
+Methods
+   1. prepend
+   2. append
+   3. after
+   4. before
+   5. toggleClass
+   6. addClass
+   7. removeClass 
+   8. hide
+   9. show
+   10.toggle 
+   11.keypress
+   12.keyup
+   13.keydown
+   14.fadeout
+   15.fadein
+   16.fadetoggle
+   17.slidetoggle
+   18.slideup
+   19.slidedown
+   20.html
+   21.text

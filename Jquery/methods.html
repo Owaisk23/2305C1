@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 700px;
+            border: 2px inset purple;
+            margin: auto;
+            padding: 10px;
+            background-color: rgb(154, 81, 222);
+            color: rgb(255, 255, 255);
+        }
+
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box-1">
+        <h1>hockey junior worldcup</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero asperiores debitis necessitatibus nisi
+            consequuntur omnis magni, vel non nulla dignissimos.</p>
+    </div>
+    <button id="btn-1">Click</button>
+    <div class="box box-2">
+        <h1>hockey junior worldcup</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero asperiores debitis necessitatibus nisi
+            consequuntur omnis magni, vel non nulla dignissimos.</p>
+    </div>
+    <button id="btn-2">Click</button>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    
+    <script>$(document).ready(function () {
+
+            $("#btn-1").click(function () {
+
+                // $(".box-1").fadeOut(2000)
+                // $(".box-1").fadeIn(3000)
+                $(".box-1").fadeToggle(1000)
+            })
+
+            $("#btn-2").click(function () {
+
+                // $(".box-2").slideUp()
+                // $(".box-2").slideDown()
+                $(".box-2").slideToggle(1000)
+            })
+        })    
+    </script>
+</body>
+
+</html>
