@@ -146,11 +146,9 @@ console.log(a);
 // var number1 = 6; // number
 // var number2 = '6'; // string
 
-
 // var result = number1 !== number2;
 
 // console.log(result); // true
-
 
 // var fname = prompt('Enter name.');
 // //USECASE OF UNARY OPERATOR

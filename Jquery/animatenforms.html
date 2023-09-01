@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid black;
+            background-color: grey;
+        }
+        input{
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        .checkDiv {
+            width: 200px;
+            height: 200px;
+            border: 2px solid pink;
+            background-color: red;
+            position: relative;   
+        }
+    </style>
+
+<body>
+    <!-- Animate -->
+    <button class="animateBtn">Click here</button>
+    <div class="checkDiv">
+
+    </div>
+    <!-- form-->
+    <!-- <br>
+    <label for="text"> Email </label><br>
+    <input type="text" id="text" required>
+<br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" required> -->
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script>
+        // selector                 //method
+        //target dom element        // what to do
+        // $(document).ready( function(){
+        //  var x =   $("#para").html();
+        //  console.log(x);
+        // } );
+
+        //selector  // action/method
+        $(document).ready(
+            function () {
+                //  var a =   $("#heading");
+                // $("#heading").css("color","red");
+                //   var a =  $("#heading").html();
+                //     console.log(a)
+
+                //selector.click
+                //selector.dblclick
+                //selector.contextmenu  --> on right click
+                //selector.mouseenter
+                //selector.mouseleave
+                // $('button').dblclick(
+                //     function () {
+                //         // $('.container').show(1000);
+                //         $('.container').fadeOut(2000);
+                //     }
+                // )
+
+                // $('button').click(
+                //     function () {
+                //         $('.container').css("color","red").slideDown(2000).slideUp(2000);
+                //     }
+                // )
+
+                // $(".container").mouseenter(
+                //     function(){
+                //         $(".container").css("background","pink");
+                //     }
+                // )
+
+                // $(".container").mouseleave(
+                //     function(){
+                //         $(".container").css("background","yellow");
+                //     }
+                // )
+
+                // keyboard event
+
+                // selector.keypress
+                // selector.keydown
+                // selector.keyup
+
+                // form event
+
+                //selector.blur
+                //selector.focus
+                //selector.change
+
+                // $("#text").focus(
+                //     function(){
+                //         $("#text").css("background-color","blue");
+                       
+                //     }
+                // )
+                // $("#text").blur(
+                //     function(){
+                //         $("#text").css("background-color","white");
+                    
+                //     }
+                // )
+                // $("#password").focus(
+                //     function(){
+                //         $("#password").css("background-color","blue");
+                //     }
+                // )
+                // $("#password").blur(
+                //     function(){
+                //         $("#password").css("background-color","white");
+                //     }
+                // )
+
+
+
+                $(".animateBtn").click(function(){
+                 $(".checkDiv").animate({left:"200px",width:"toggle",height:"toggle",opacity:"0.5", borderRadius:"50%"},5000);
+                //   $(".checkDiv").animate({left:"+=200px",width:"300px",height:"300px",opacity:"0.5", borderRadius:"50%"},1000);
+
+                //   $(".checkDiv").animate({top:"200px"},2000);
+
+                //   $(".checkDiv").animate({top:"200px",left:"0"},2000);
+
+                //   $(".checkDiv").animate({top:"0"},2000);
+             });
+            }
+        );
+
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container ">
+        <h1 id="heading">hello</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum rerum deleniti omnis. Sapiente quod obcaecati
+            dolor iste minus at voluptates, corrupti hic.</p>
+
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, fuga? Quas odit libero nostrum
+            accusantium dignissimos sint repellat officia eius eligendi accusamus.</p>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat suscipit laboriosam dolorum
+            ratione animi, facere aliquam, nisi unde at molestiae voluptates quasi.</p>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat suscipit laboriosam dolorum
+            ratione animi, facere aliquam, nisi unde at molestiae voluptates quasi.</p>
+    </div>
+    <ul>
+        <li class="list_item1">Lorem, ipsum dolor.</li>
+        <li class="list_item2">Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+    </ul>
+
+    <ol>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum.</li>
+    </ol>
+
+    <button>Click here</button> -->
