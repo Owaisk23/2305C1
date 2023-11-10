@@ -364,8 +364,6 @@ console.log(a);
 //     console.log('Focus rakhiyega samjh ajayega')
 // }
 
-
-
 // // function calling
 
 // print();
@@ -413,9 +411,6 @@ console.log(a);
 // function greet(){
 //     alert('hello, good morning!')
 // }
-
-
-
 
 // function getInput(){
 
@@ -475,17 +470,22 @@ console.log(a);
 // Student.name = "Abc"
 // console.log(Student);
 
-var fname = "Owais";
-var age = 23;
-var gender = "Male"
+// var fname = "Owais";
+// var age = 23;
+// var gender = "Male"
 // console.log("My name is " + fname + " & age is " + age);
 
 
 
 //template literal
-// console.log(`My name is ${fname} and another info is below
-//     ${age} & ${gender}`)
+var fname = 'Owais';
+var age = 23;
+var gender = 'MAle';
+var jobTitle = 'Software Developer'
 
+console.log(`My name is ${fname} and another info is below 
+${age} & ${gender} and my JOb title is ${jobTitle}`)
+// console.log("My name is" + fname + " and another info is below " + age + "&" + gender);
 
 
 

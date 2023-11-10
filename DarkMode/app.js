@@ -4,8 +4,6 @@ function darkMode(){
     var nightImg = document.getElementById("darkModeImg");
 
 
-  
-
     container.style.backgroundColor = "black";
     container.style.color = "white";
 
@@ -31,8 +29,5 @@ function lightMode(){
 
     lightImg.style.display = "none";
     nightImg.style.display = "inline";
-
-
-
 
 }

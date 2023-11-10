@@ -12,5 +12,3 @@ const p1 = document.getElementById(main);
 const p2 = p1.getElementsByTagName("p");
 
 document.getElementById("para1").innerHTML = "hello world  " + p2[0].innerHTML;
-
-

@@ -1,36 +1,19 @@
-// const element = document.getElementsByTagName("p");
+const element = document.getElementsByTagName("p");
 
-// document.getElementById("demo").innerHTML = 'hello world: ' + element[2].innerHTML;
+document.getElementById("demo").innerHTML = 'hello world: ' + element[2].innerHTML;
 
-// var para = document.getElementsByClassName("para");
+var para = document.getElementsByClassName("para");
 
-// console.log(para[2])
+console.log(para[2])
 
-// var para = document.getElementsByClassName("p1")
+var para = document.getElementsByClassName("p1")
 
-// console.log(para[4])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(para[4])
 
 
 function changeImage(){
    var img = document.getElementById('image');
-   img.style.width = "1000px";
+   img.style.width = "100px";
    img.src = "https://img.freepik.com/free-vector/modern-blue-urban-adventure-suv-vehicle-illustration_1344-205.jpg?w=2000";
    console.log(img)
 }

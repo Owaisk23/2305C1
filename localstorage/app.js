@@ -9,7 +9,7 @@
 
 // localStorage.removeItem("Location");
 
-//For Session Storage
+// For Session Storage
 // sessionStorage.setItem("name", "Owais");
 // sessionStorage.setItem("age", "23");
 // sessionStorage.setItem("Location", "North Nazimabad")
