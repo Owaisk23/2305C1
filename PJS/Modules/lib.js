@@ -1,5 +1,3 @@
-
-
 let a = "Owais";
 
 function fullName(fname, lname){

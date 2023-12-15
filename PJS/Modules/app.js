@@ -7,3 +7,4 @@ import {a , fullName} from "./lib.js"
 alert(age);
 
 fullName(a, b);
+        

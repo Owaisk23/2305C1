@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello in Async JS</h1>
+
+    <button id="stop">Stop</button>
+
+    <script>
+        // example 1
+        // console.log("a")
+        // console.log("b")
+        // console.log("c")
+        // console.log("d")
+        // setTimeout(function(){
+        //     console.log("Hello after 5sec waiting")
+        // }, 5000);
+        // console.log("e")
+        // console.log("f")
+        // console.log("g")
+        // console.log("h")
+        // console.log("i")
+
+        // Example 2
+        // const sayMe = function(){
+        //     console.log("Owais")
+        // }
+
+        // const changeText = function(){
+        //     document.querySelector("h1").innerHTML = "Change Text by Async";
+        // }
+
+        
+        // let timeOut = setTimeout(changeText, 2000);
+        // document.querySelector('#stop').addEventListener('click', function(){
+        //     clearTimeout(timeOut);
+        //     console.log("Stopped");     
+        // })
+    
+        //Example 3 of setInterval 
+        
+
+        // setInterval(function(){
+        //     console.log("Hello ")
+        // }, 2000)
+
+        // Example 4
+        // const repeatName = function(){
+        //     console.log("Hello", Date.now())
+        // }
+
+        // const intervalID = setInterval(repeatName, 2000)
+
+
+        const repeatName = function(str){
+            console.log(str, Date.now())
+        }
+
+        const intervalID = setInterval(repeatName, 2000, "Hello")
+
+        clearInterval(intervalID)
+
+    </script>
+</body>
+
+</html>
