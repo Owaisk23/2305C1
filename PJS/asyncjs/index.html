@@ -27,44 +27,161 @@
         // console.log("h")
         // console.log("i")
 
+        // setTimeout(function(){
+        //     console.log("hello after 3 sec")
+        // }, 3000)
+
         // Example 2
         // const sayMe = function(){
         //     console.log("Owais")
         // }
 
         // const changeText = function(){
-        //     document.querySelector("h1").innerHTML = "Change Text by Async";
+        //     document.querySelector("h1").innerHTML = "Change Text by Async using DOM";
         // }
 
-        
+
         // let timeOut = setTimeout(changeText, 2000);
         // document.querySelector('#stop').addEventListener('click', function(){
         //     clearTimeout(timeOut);
         //     console.log("Stopped");     
         // })
-    
+
         //Example 3 of setInterval 
+        // const sayHello = function(){
+        //     console.log("Hello ")
+        // }
         
 
-        // setInterval(function(){
-        //     console.log("Hello ")
-        // }, 2000)
+        // setInterval(sayHello, 1000)
 
         // Example 4
         // const repeatName = function(){
-        //     console.log("Hello", Date.now())
+        //     console.log("Owais", Date.now())
         // }
 
         // const intervalID = setInterval(repeatName, 2000)
 
 
-        const repeatName = function(str){
-            console.log(str, Date.now())
-        }
+        // const repeatName = function(str){
+        //     console.log(str, Date.now())
+        // }
 
-        const intervalID = setInterval(repeatName, 2000, "Hello")
+        // const intervalID = setInterval(repeatName, 1000, "Hello")
 
-        clearInterval(intervalID)
+        // document.querySelector('#stop').addEventListener('click', function(){
+        //     clearInterval(intervalID);
+        //     console.log("Stopped");     
+        // })
+
+        // PROMISES
+        // Example 1 of promise
+        // const promiseOne = new Promise(function(resolve, reject){
+        //     // async data from db
+        //     setTimeout(function(){
+        //         console.log("Promise resolvee/Completed")
+        //         resolve()
+        //     }, 4000)
+        // })
+
+        // promiseOne.then(function(){
+        //     console.log("Promise comsumed")
+        // })
+
+        // Example 2 of promise
+        // new Promise(function(resolve, reject){
+
+        //     setTimeout(function(){
+        //         console.log("Async task 2");
+        //         resolve()
+        //     }, 5000)
+        // }).then(function(){
+        //     console.log("Async task 2 completed")
+        // })
+
+
+        // Example 3 of promise
+        // const promiseThree = new Promise(function (resolve, reject) {
+        //     // async data from db
+        //     setTimeout(function () {
+        //         resolve({ username: "Owais", batch: "2305C1", email: "abc@gmail.com", position: "Faculty" })
+        //     }, 4000)
+        // })
+
+        // promiseThree.then(function (user) {
+        //     console.log(user)
+        // })
+
+
+        // Example 4 of promise
+        // let pizzaKhilaya = false;
+
+        // let prom = new Promise((res, rej) => {
+
+        //     if (pizzaKhilaya == true) {
+
+        //         return res("thanks for the treat")
+
+        //     } else {
+
+        //         return rej("acha nahi kia tmne")
+
+        //     }
+        // }).then(function (data) {
+        //     console.log(data)
+        // }).catch(function (data) { 
+        //     console.log(data) 
+        // })
+
+
+        // Example 5 of promise
+
+        // let number = Math.round(Math.random() * 10);
+        // console.log(number);
+
+        // let checkNumber = new Promise((res, rej) => {
+        //     if (number > 5) {
+        //         return res("Wada Poora ho gaya😍")
+        //     } else {
+        //         return rej("Wada toot gaya😥")
+        //     }
+        // }).then((c) => {
+        //     console.log(c)
+        // }).catch((c) => {
+        //     console.log(c)
+        // })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </script>
 </body>
