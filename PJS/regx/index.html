@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      /* input + label{
+        color: rgb(90, 90, 255);
+    }
+    input.valid + label{
+        color: rgb(7, 88, 0);
+    }
+    input.invalid + label{
+        color: rgb(255, 0, 0);
+    } */
+      input.valid {
+        border: 2px solid green;
+      }
+      input.invalid {
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 mx-auto">
+          <h1 class="text-center display-">Signup Form</h1>
+
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="form-control"
+            placeholder="Enter username"
+          /><br />
+          <label for="username" class="mb-3"
+            >Enter username from 5-10 alphanumeric characters</label
+          ><br />
+
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter email"
+          /><br /><label for="email" class="mb-3"
+            >Enter email like xyz@abc.com</label
+          ><br />
+
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            class="form-control"
+            placeholder="Enter phone number"
+          /><br />
+          <label for="phone" class="mb-3"
+            >please enter you number in following format:+9231757545454 or
+            032165878787</label
+          ><br />
+          <input
+            type="text"
+            name="password"
+            id="password"
+            class="form-control"
+            placeholder="Enter password"
+          /><br />
+          <label for="password" class="mb-3"
+            >A password must contains a lowercase letter, an uppercase letter, a
+            digit and an special charater</label
+          ><br />
+          <button class="btn btn-info d-grid mx-auto my-2" onclick="Register()">
+            Register
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      const regex = {
+        username: /^[a-z]{6,10}$/,
+        email: /^([\w])+@([\w])+\.([a-z]{2,6})(\.[a-z]{2,4})*$/,
+        password:
+        /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!#@%\?\+-])[\w+!#@%\?\+-]{8,16}$/,
+        phone: /^[\+]?[\d]{11,15}$/,
+      };
+
+
+let user= JSON.parse(localStorage.getItem("user")) || []
+
+      function validate(elem, pattern) {
+        // elem.value.match(pattern)//asdjfhdfj = ["asdjfhdfj"]/null
+        if (pattern.test(elem.value)) {
+        console.log('correct validation')
+          elem.classList.add("valid");
+          elem.classList.remove("invalid");
+        } else {
+          console.log('wrong validation')
+          elem.classList.add("invalid");
+          elem.classList.remove("valid");
+        }
+      }
+
+      let inputs = document.querySelectorAll("input");
+      console.log(inputs);
+
+      inputs.forEach((input) => {
+        input.addEventListener("keyup", (e) => {
+          //  console.log(e.target.attributes.id.value);
+          //  console.log(e.target.value);
+          //  console.log(regex[e.target.attributes.id.value]);
+          validate(e.target, regex[e.target.attributes.id.value]);
+        });
+      });
+
+
+//  var valid=false;
+ let count;
+let Register = () => {
+  count=0
+  inputs.forEach(element=>{
+
+ let classes=element.classList.value;
+ 
+ if(classes.includes("valid") && !classes.includes("invalid")){
+  // valid=true;
+  count++;
+ }
+//  else{
+//   // valid=false;
+//   count--;
+//  }
+//  console.log(classes.includes("valid") && !classes.includes("invalid"));
+//  console.log(valid);
+  })
+  console.log(count)
+if(count==4){
+  let person={
+  username:username.value,
+  email:email.value,
+  password:password.value,
+  phone:phone.value
+}
+user.push(person)
+localStorage.setItem("user",JSON.stringify(user))
+
+            Swal.fire({
+              icon: "success",
+              title: "Thanks",
+              text: "Registeration Successful",
+              footer: '<a href="">Login now!</a>'
+            });
+          }
+          else{
+            Swal.fire({
+              icon: "error",
+              title: "Oops...",
+              text: "Please enter valid values!" 
+          })
+          }
+}
+
+
+//       let SignUp = () => {
+
+//         let username = document.querySelector("#username");
+//         let email = document.querySelector("#email");
+//         let password = document.querySelector("#password");
+//         let phone = document.querySelector("#phone");
+
+
+//         console.log(regex.username)
+//         console.log(username.value)
+//         console.log(regex.username.test(username.value))
+
+//         console.log(regex.email)
+//         console.log(email.value)
+//         console.log(regex.email.test(email.value))
+
+//         console.log(regex.password)
+//         console.log(password.value)
+//         console.log(regex.password.test(password.value))
+
+//         console.log(regex.phone)
+//         console.log(phone.value)
+//         console.log(regex.phone.test(phone.value))
+
+// if (username.value !== "" && email.value !== "" && password.value !== "" && phone.value !== "") 
+// {
+//           if (!regex.username.test(username.value) && !regex.email.test(email.value) && !regex.password.test(password.value) && !regex.phone.test(phone.value) ) {
+//             Swal.fire({
+//               icon: "error",
+//               title: "Oops...",
+//               text: "Please enter valid values!" 
+//           })}
+//           else {
+//             let person={
+//   username:username.value,
+//   email:email.value,
+//   password:password.value,
+//   phone:phone.value
+// }
+// user.push(person)
+// localStorage.setItem("user",JSON.stringify(user))
+
+//             Swal.fire({
+//               icon: "success",
+//               title: "Thanks",
+//               text: "Registeration Successful",
+//               footer: '<a href="">Login now!</a>'
+//             });
+//           }
+// } 
+// else 
+// {Swal.fire({
+//             icon: "error",
+//             title: "Oops...",
+//             text: "Please fill all the values!"
+//            });
+// }
+//       };
+
+    </script>
+  </body>
+</html>
