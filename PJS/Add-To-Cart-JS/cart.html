@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cart</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">Logo</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> <span id="quantity">(0)</span></a></li>
+        </ul>
+
+    </nav>
+    <h1 class="main-heading">Cart</h1>
+
+    <div class="table-container">
+
+        <table class="table" >
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Image</th>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            
+            <tbody id="cart">
+                <!-- <tr>
+                    <td>1</td>
+                    <td><img src="images/img2.jpg" alt="" class="img"></td>
+                    <td class="title">Headphone</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>Rs <span>299</span></td>
+                    <td><button>Remove</button></td>
+                    
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <script src="cart.js" ></script>
+    </body>
+    </html>

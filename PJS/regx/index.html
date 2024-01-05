@@ -40,52 +40,18 @@
         <div class="col-8 mx-auto">
           <h1 class="text-center display-">Signup Form</h1>
 
-          <input
-            type="text"
-            name="username"
-            id="username"
-            class="form-control"
-            placeholder="Enter username"
-          /><br />
-          <label for="username" class="mb-3"
-            >Enter username from 5-10 alphanumeric characters</label
-          ><br />
+          <input type="text" name="username" id="username" class="form-control" placeholder="Enter username"/><br />
+          <label for="username" class="mb-3">Enter username from 5-10 alphanumeric characters</label><br />
 
-          <input
-            type="text"
-            name="email"
-            id="email"
-            class="form-control"
-            placeholder="Enter email"
-          /><br /><label for="email" class="mb-3"
-            >Enter email like xyz@abc.com</label
-          ><br />
+          <input type="text" name="email" id="email" class="form-control" placeholder="Enter email"/><br /> 
+          <label for="email" class="mb-3" >Enter email like xyz@abc.com</label><br />
 
-          <input
-            type="text"
-            name="phone"
-            id="phone"
-            class="form-control"
-            placeholder="Enter phone number"
-          /><br />
-          <label for="phone" class="mb-3"
-            >please enter you number in following format:+9231757545454 or
-            032165878787</label
-          ><br />
-          <input
-            type="text"
-            name="password"
-            id="password"
-            class="form-control"
-            placeholder="Enter password"
-          /><br />
-          <label for="password" class="mb-3"
-            >A password must contains a lowercase letter, an uppercase letter, a
-            digit and an special charater</label
-          ><br />
-          <button class="btn btn-info d-grid mx-auto my-2" onclick="Register()">
-            Register
-          </button>
+          <input type="text" name="phone" id="phone" class="form-control" placeholder="Enter phone number"/><br />
+          <label for="phone" class="mb-3" >please enter you number in following format:+9231757545454 or 032165878787</label><br />
+          
+          <input type="text" name="password" id="password" class="form-control" placeholder="Enter password"/><br />
+          <label for="password" class="mb-3" >A password must contains a lowercase letter, an uppercase letter, a digit and an special charater</label><br />
+          <button class="btn btn-info d-grid mx-auto my-2" onclick="Register()">Register</button>
         </div>
       </div>
     </div>
@@ -158,20 +124,21 @@ if(count==4){
 }
 user.push(person)
 localStorage.setItem("user",JSON.stringify(user))
-
-            Swal.fire({
-              icon: "success",
-              title: "Thanks",
-              text: "Registeration Successful",
-              footer: '<a href="">Login now!</a>'
-            });
+            alert("Success")
+            // Swal.fire({
+            //   icon: "success",
+            //   title: "Thanks",
+            //   text: "Registeration Successful",
+            //   footer: '<a href="">Login now!</a>'
+            // });
           }
           else{
-            Swal.fire({
-              icon: "error",
-              title: "Oops...",
-              text: "Please enter valid values!" 
-          })
+            alert("Sorry invalid")
+            //   Swal.fire({
+          //     icon: "error",
+          //     title: "Oops...",
+          //     text: "Please enter valid values!" 
+          // })
           }
 }
 
