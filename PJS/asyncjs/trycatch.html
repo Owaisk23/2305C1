@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Loader</title>
+    <style>
+        #image-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #error-message {
+            color: red;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="image-container">
+    <img id="image" alt="Loaded Image" width="300">
+</div>
+
+<div id="error-message"></div>
+
+<script>
+    function loadImage() {
+        var imageUrl = 'https://images.unsplash.com/c357?w=500&auto=format&fi%3D'; // Replace with a valid image URL
+
+        try {
+            // Try to load the image
+            document.getElementById('image').src = imageUrl;
+        } catch (error) {
+            // Handle any errors that occurred during image loading
+            displayErrorMessage(error);
+        }
+    }
+
+    function displayErrorMessage(error) {
+        var errorMessageElement = document.getElementById('error-message');
+
+        if (error instanceof Error && error.message.includes('Failed to load')) {
+            errorMessageElement.textContent = 'Error: Image failed to load. Please check the URL and try again.';
+        } else {
+            errorMessageElement.textContent = 'An unexpected error occurred. Please try again later.';
+        }
+    }
+
+    // Attempt to load the image when the page loads
+    window.onload = loadImage;
+</script>
+
+</body>
+</html>

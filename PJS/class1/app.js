@@ -162,7 +162,7 @@
 // var names = ['Taha', 'Ali', 'Abdullah', 'Hamza', 'Haseeb'];
 
 // var spliceNames = names.splice(0, 2 , 'Bilal', 'Asif');
-// names.sort()
+// // names.sort()
 
 // console.log(names);
 
@@ -216,14 +216,14 @@
 
 
 
-let p2 = document.getElementById('head').innerText = "Hello from JS";
-document.getElementById('para').innerText = "Hello from JS we r revising DOm.";
+// let p2 = document.getElementById('head').innerText = "Hello from JS";
+// document.getElementById('para').innerText = "Hello from JS we r revising DOm.";
 
-let p1 = document.getElementById('p1').innerHTML = "<h1>hello from js</h1>"
-
-
+// let p1 = document.getElementById('p1').innerHTML = "<h1>hello from js</h1>"
 
 
-console.log(p1);
+
+
+// console.log(p1);
 
 

@@ -1,8 +1,4 @@
 
-
-
-
-
 var car = {
     name : "Mehran",
     model : "1998",
@@ -10,17 +6,6 @@ var car = {
 }
 
 console.log(car.model);
-
-
-
-
-
-
-
-
-
-
-
 
 
 class Vehicle {
