@@ -1,11 +1,11 @@
 let btn1 = document.getElementById('btn1')
 btn1.addEventListener('click', () => {
-    let result = 0;
-    for(let i = 0; i<10000000000; i++){
-        result += i;
+    const workerObj = new Worker("worker.js");
+    workerObj.postMessage("Start worker");
+    workerObj.onmessage = function(e){
+        document.querySelector('#output').innerHTML = e.data;
     }
-    document.querySelector('#output').innerHTML =  result;
-
+   
 })
 
 let btn2 = document.querySelector('#btn2');
