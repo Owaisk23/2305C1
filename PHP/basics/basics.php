@@ -97,19 +97,42 @@
 
     // if elseif else
 
-    $age = 18;
+    // $age = 20;
 
-    if($age > 18){
-        echo "You r eligible for vote";
-    }elseif ($age = 18){
-        echo '<script>alert("you r eligble but get your cnic first")</script>';
-    }
-    else{
-        echo "You r not eligible for vote";
-    }
+    // if($age > 18){
+    //     echo "You r eligible for vote";
+    // }elseif ($age = 18){
+    //     echo '<script>alert("you r eligble but get your cnic first")</script>';
+    // }
+    // else{
+    //     echo "You r not eligible for vote";
+    // }
 
 
+    // switch case
 
+    // $day = "Sunday";
+
+    // switch($day){
+    //     case 'Monday':
+    //         echo "Today is Monday";
+    //         break;
+    //     case 'Tuesday':
+    //         echo "Today is Tuesday";
+    //         break;
+    //     case 'Wednesday':
+    //         echo "Today is Wednesday";
+    //         break;
+    //     case 'Thursday':
+    //         echo "Today is Thursday";
+    //         break;
+    //     case 'Friday':
+    //         echo "Today is Friday";
+    //         break;
+    //     default:
+    //         echo "Hope so it's a weekend!!";
+    //         break;
+    // }
 
 
 
