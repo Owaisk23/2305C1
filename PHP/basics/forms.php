@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>SUPERGLOBALS in PHP</h1>
-    <form action="submit.php" method="post">
+    <form action="submit.php" method="get">
         <input type="text" name="username" id="uname" placeholder="Enter your name" required><br><br>
         <input type="text" name="userage" id="age" placeholder="Enter your age" required><br><br>
         <input type="submit" value="submit" name="formsubmit">
