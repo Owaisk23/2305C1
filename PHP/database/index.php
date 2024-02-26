@@ -34,14 +34,10 @@ while($row=mysqli_fetch_assoc($result)){
     echo "<td>".$row['name']."</td>"; //name
     echo "<td>".$row['contact']."</td>"; //contact
     echo "<td>".$row['city']."</td>"; //city
-    // echo '<td>
-    // <a href="update.php?id='.$row["id"].'" class="btn btn-success px-2 mx-2">Edit</a>
-    // <a href="delete.php?id='.$row["id"].'" class="btn btn-danger">Delete</a>
-    // </td>';
     echo '<td>
-    <a href="#" class="btn btn-success px-2 mx-2">Edit</a>
-    <a href="#" class="btn btn-danger">Delete</a>
-    </td>'; //action
+    <a href="update.php?id='.$row["id"].'" class="btn btn-success px-2 mx-2">Edit</a>
+    <a href="delete.php?id='.$row["id"].'" class="btn btn-danger">Delete</a>
+    </td>';
     echo "</tr>";
     
 }
