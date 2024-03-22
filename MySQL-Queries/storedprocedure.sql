@@ -18,11 +18,12 @@ select ceil(3.98);
 select ceil(3.1);
 select floor(3.1);
 select floor(3.9);
-select SIN(90);
+select SIN(30);
+select TAN(60);
 select COS(90);
-select sqrt(625);
-select ascii("a");
-select char_length("hello");
+select sqrt(25);
+select ascii("y");
+select char_length("Owais Ahmed Khan");
 select concat("hello", " world ");
 
 select curdate();
