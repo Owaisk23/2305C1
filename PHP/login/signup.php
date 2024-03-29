@@ -34,6 +34,7 @@ else{
 <body>
     <div class="container my-4">
     <h1 class="text-center">Signup</h1>
+    
 <form action="" method="post" class="form-group">
 <input type="text" name="username" id="" class="form-control my-2" placeholder="Enter username">
 <input type="email" name="email" id="" class="form-control my-2" placeholder="Enter email">
