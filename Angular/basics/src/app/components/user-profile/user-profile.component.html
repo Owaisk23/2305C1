@@ -1,0 +1,31 @@
+<h1>this is my component</h1>
+<h2>User Name Is: {{name}} User salary is: {{salary}} & User Designation is: {{designation}}</h2>
+
+<button [disabled]="isDisabled">Click Me</button><br>
+
+<!-- <input type="text" placeholder="Enter Text" (change)="onChange()"> -->
+<!-- <input type="text" placeholder="Enter Text" (input)="onChange($event)"> -->
+ <h2>Input Value: {{inputVal}}</h2>
+<input type="text" placeholder="Enter Text" [(ngModel)]="inputVal">
+
+
+
+
+<div *ngFor="let user of users">
+    <h2>Name: {{user.name}} & Status {{user.isSingle?"single":"coder"}} Salary: {{user.salary}}</h2>
+    <!-- <h2 *ngIf="user.salary > 10000;else elseBlock">Name: {{user.name}} & Status {{user.isSingle?"single":"coder"}} Salary: {{user.salary}}</h2> -->
+    <!-- <ng-template #elseBlock>
+        <h2>Name: {{user.name}} & Status {{user.isSingle?"single":"coder"}} Salary: {{user.salary}}</h2>
+    </ng-template> -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
