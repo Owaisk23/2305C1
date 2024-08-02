@@ -1,6 +1,8 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { booleanAttribute, Component, numberAttribute, Input, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { User } from '../../../models/user';
+
 
 @Component({
   selector: 'app-user-profile',
@@ -10,17 +12,21 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './user-profile.component.css'
 })
 export class UserProfileComponent {
-  name = "Owais Ahmed Khan";
-  salary = 56000;
-  designation = "Software Developer";
-  isDisabled= true;
-  inputVal = "test";
-  users = [
-    {name:"Owais", isSingle:true, salary:1000},
-    {name:"Abdullah", isSingle:false, salary:123000},
-    {name:"Taha", isSingle:true, salary:3000},
-    {name:"Bilal", isSingle:false, salary:15000},
-  ]
+  @Input({alias:"userName"}) name = "";
+  @Input({transform:booleanAttribute}) isSingle!:boolean;
+  @Input({transform: numberAttribute}) salary!:number;
+
+  @Output() myEvent = new EventEmitter<User>()
+  sendData(){
+    this.myEvent.emit({name:this.name, newSalary: 25000})
+  }
+
+  // name = "Owais Ahmed Khan";
+  // salary = 56000;
+  // designation = "Software Developer";
+  // isDisabled= true;
+  // inputVal = "test";
+  
 
   // onChange(){
   //   console.log("Called Function");
@@ -31,10 +37,10 @@ export class UserProfileComponent {
   //   console.log(value);
   // }
 
-  onChange(e:Event){
-    const value = (e.target as HTMLInputElement).value;
-    this.inputVal = value;
-  }
+  // onChange(e:Event){
+  //   const value = (e.target as HTMLInputElement).value;
+  //   this.inputVal = value;
+  // }
 
 
 }
