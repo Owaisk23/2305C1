@@ -71,3 +71,92 @@ SELECT * FROM Employees Order By id desc;
 SELECT top 4 * FROM Employees;
 
 SELECT top 50 percent * FROM Employees Order By id desc;
+
+select * from Employees;
+
+-- Aggregate Functions
+
+SELECT COUNT(city) as total_cities from Employees;
+
+SELECT MIN(salary) as minimum_salary from Employees;
+
+SELECT MAX(salary) as maximum_salary from Employees;
+
+SELECT SUM(salary) as total_salary from Employees;
+
+SELECT SUM(id) as total_id from Employees;
+
+SELECT AVG(salary) as avg_salary from Employees;
+
+SELECT CONCAT(empName,' work as a ', designation, ' gets salary of RS ', salary) 
+as emp_details from Employees;
+
+SELECT empName, salary from Employees where salary < (SELECT AVG(salary) as avg_salary from Employees);
+
+-- Group By Clause
+SELECT city, COUNT(id) workers from Employees Group By city;
+
+SELECT city, MAX(salary) max_salary_paid from Employees Group By city;
+
+SELECT city, SUM(salary) total_salary_paid from Employees Group By city;
+
+
+
+INSERT INTO Employees(empName, designation, salary, city, deptId) VALUES
+('Ali Asr', 'MANAGER', 420000, 'KHI', null),
+('Ebad', 'MANAGER', 670000, 'ISB', null),
+('Bilal', 'MANAGER', 220000, 'LHR', null);
+
+Select * FROM Employees;
+
+
+SELECT designation, COUNT(id) from Employees Group By designation having designation = 'MANAGER';
+
+-- Department Table
+
+CREATE table Departments (
+deptId int PRIMARY KEY IDENTITY(1,1),
+DName nvarchar(40) not null
+);
+
+insert into Departments values ('HR'), ('Academics'), ('Accounts'), ('SRO');
+
+SELECT * FROM Departments;
+
+SELECT * FROM Employees;
+
+TRUNCATE TABLE Employees;
+
+DROP TABLE Employees;
+
+
+CREATE TABLE Employees(
+	id INT PRIMARY KEY IDENTITY(1,1),
+	empName VARCHAR(255) NOT NULL,
+	designation VARCHAR(255) NOT NULL,
+	salary INT NOT NULL,
+	city VARCHAR(255) NOT NULL,
+	deptId INT,
+	FOREIGN KEY (deptId) References Departments(deptId)
+);
+
+
+INSERT INTO Employees(empName, designation, salary, city, deptId) VALUES
+('Ali Asr', 'CAH', 420000, 'KHI', 2),
+('Ebad', 'Placement Officer', 670000, 'ISB', 1),
+('Bilal', 'Fee Collector', 220000, 'LHR', 4),
+('Haseeb', 'Coordinator', 670000, 'KHI', 2),
+('Taha', 'Admin Accountant', 220000, 'LHR', 3),
+('Abdullah', 'Manager', 670000, 'KHI', 2),
+('Azhar', 'Faculty', 220000, 'ISB', 2);
+
+SELECT * FROM Employees;
+
+-- JOINS
+
+
+
+
+
+
+
