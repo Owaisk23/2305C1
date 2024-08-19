@@ -12,35 +12,35 @@ import { User } from '../../../models/user';
   styleUrl: './user-profile.component.css'
 })
 export class UserProfileComponent {
-  @Input({alias:"userName"}) name = "";
-  @Input({transform:booleanAttribute}) isSingle!:boolean;
-  @Input({transform: numberAttribute}) salary!:number;
+  // @Input({alias:"userName"}) name = "";
+  // @Input({transform:booleanAttribute}) isSingle!:boolean;
+  // @Input({transform: numberAttribute}) salary!:number;
 
-  @Output() myEvent = new EventEmitter<User>()
-  sendData(){
-    this.myEvent.emit({name:this.name, newSalary: 25000})
-  }
+  // @Output() myEvent = new EventEmitter<User>()
+  // sendData(){
+  //   this.myEvent.emit({name:this.name, newSalary: 25000})
+  // }
 
-  // name = "Owais Ahmed Khan";
-  // salary = 56000;
-  // designation = "Software Developer";
-  // isDisabled= true;
-  // inputVal = "test";
+  name = "Owais Ahmed Khan";
+  salary = 56000;
+  designation = "Software Developer";
+  isDisabled= true;
+  inputVal = "test";
   
 
   onChange(){
     console.log("Called Function");
   }
 
-  onChange(e:Event){
-    const value = (e.target as HTMLInputElement).value;
-    console.log(value);
-  }
+  // onChange(e:Event){
+  //   const value = (e.target as HTMLInputElement).value;
+  //   console.log(value);
+  // }
 
-  onChange(e:Event){
-    const value = (e.target as HTMLInputElement).value;
-    this.inputVal = value;
-  }
+  // onChange(e:Event){
+  //   const value = (e.target as HTMLInputElement).value;
+  //   this.inputVal = value;
+  // }
 
 
 }
