@@ -153,10 +153,19 @@ INSERT INTO Employees(empName, designation, salary, city, deptId) VALUES
 SELECT * FROM Employees;
 
 -- JOINS
+--INNER JOIN 
+SELECT * FROM Employees as emp INNER JOIN Departments as d on emp.deptId=d.deptId;
 
+--LEFT JOIN 
+SELECT * FROM Employees as emp LEFT JOIN Departments as d on emp.deptId=d.deptId;
 
+SELECT * FROM Departments as emp LEFT JOIN Employees as d on emp.deptId=d.deptId;
 
+--RIGHT JOIN 
+SELECT * FROM Employees as emp RIGHT JOIN Departments as d on emp.deptId=d.deptId;
 
+--FULL OUTER JOIN
+SELECT emp.*, d.DName FROM Employees as emp FULL OUTER JOIN Departments as d on emp.deptId=d.deptId;
 
 
 
