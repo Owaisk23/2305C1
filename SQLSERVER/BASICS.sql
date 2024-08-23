@@ -167,5 +167,21 @@ SELECT * FROM Employees as emp RIGHT JOIN Departments as d on emp.deptId=d.deptI
 --FULL OUTER JOIN
 SELECT emp.*, d.DName FROM Employees as emp FULL OUTER JOIN Departments as d on emp.deptId=d.deptId;
 
+-- VIEWS 
+SELECT * FROM Employees;
+
+CREATE View [empDetails]
+AS
+SELECT id, empName, designation from Employees;
+
+
+SELECT * FROM empDetails;
+
+
+
+
+
+
+
 
 
