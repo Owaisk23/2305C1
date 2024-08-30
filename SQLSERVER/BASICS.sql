@@ -174,14 +174,32 @@ CREATE View [empDetails]
 AS
 SELECT id, empName, designation from Employees;
 
+CREATE View [empDeptName]
+AS
+SELECT DName FROM Departments;
 
-SELECT * FROM empDetails;
-
-
-
-
-
+select * from empDeptName;
 
 
+Create VIEW [empDetailwithDept]
+AS
+SELECT emp.*, d.DName from Employees as emp INNER JOIN Departments as d ON emp.deptId = d.deptId;
 
+SELECT * from [empDetailwithDept];
 
+UPDATE Employees SET empName = 'Owais Ahmed' where id = 1;
+
+delete from Employees where id = 7;
+
+-- DATA CONTROL LANGUAGE DCL
+
+CREATE LOGIN EMP_CLERK WITH Password='555';
+CREATE USER EMP_CLERK From LOGIN EMP_CLERK;
+
+Select * FROM sys.sql_logins;
+
+-- GRANT TO GIVE PERMISSON
+
+GRANT SELECT, INSERT on dbo.Employees TO EMP_CLERK;
+
+grant DELETE on dbo.Employees TO EMP_CLERK;
