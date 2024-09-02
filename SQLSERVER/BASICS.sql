@@ -198,8 +198,46 @@ CREATE USER EMP_CLERK From LOGIN EMP_CLERK;
 
 Select * FROM sys.sql_logins;
 
--- GRANT TO GIVE PERMISSON
+-- GRANT TO GIVE PERMISSION
 
 GRANT SELECT, INSERT on dbo.Employees TO EMP_CLERK;
 
 grant DELETE on dbo.Employees TO EMP_CLERK;
+
+-- REVOKE(To take back the permission)
+
+REVOKE DELETE on dbo.Employees TO EMP_CLERK;
+
+-- PROCEDURES
+
+CREATE PROCEDURE SeeEmp
+AS
+BEGIN
+SELECT * FROM Employees
+END;
+
+SeeEmp;
+
+
+ALTER PROCEDURE SeeEmp
+AS
+BEGIN
+SELECT * FROM Employees where city='LHR'
+END;
+
+SeeEmp;
+
+CREATE PROCEDURE AddEmp @Name varchar(255), @desig varchar(70), @sal int, @city varchar(60), @dId int
+AS
+BEGIN
+INSERT INTO Employees VALUES(@Name, @desig, @sal, @city, @dId)
+SELECT * FROM Employees
+END;
+
+AddEmp @Name='Haseeb', @desig='Software Developer', @sal=50000, @city='Karachi', @dId=2;
+
+AddEmp @Name='Yumna', @desig='Flutter Developer', @sal=150000, @city='Lahore', @dId=1;
+
+DROP PROCEDURE SeeEmp;
+
+
