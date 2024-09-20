@@ -1,0 +1,30 @@
+// See https://aka.ms/new-console-template for more information
+/*Console.WriteLine("Hello, World!");
+
+string fName = "Owais";
+string lName = " Ahmed Khan";
+
+Console.WriteLine("Hello, Welcome to our company Mr." + fName + lName);*/
+
+// Datatypes
+/*byte age = 23;
+short salary = 27000;
+int number = 15;
+long lNum = 1233211233213312321L;
+
+float fNum = 2.567F; // 7 digits
+double dNum = 1.23986592365623596239; // 15 digits
+decimal deciNum = 2.913695613916541949146912346124612M; // 28 digits
+
+char myGrade = 'A';
+bool isValid = false;
+string address = "North Nazimabad Block A";*/
+// Console.WriteLine(age +  "age" + "lNum" + salary + "sal" + number + "Numb");
+
+// Arithematic Operators
+
+Console.WriteLine(55 + 45);
+Console.WriteLine(55 - 45);
+Console.WriteLine(55 * 45);
+Console.WriteLine(55 / 45);
+Console.WriteLine(55 % 45);
