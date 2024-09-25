@@ -69,7 +69,7 @@ Console.WriteLine(!(a == b)); // TRUE
 //IF Else
 using System;
 
-Console.WriteLine("Enter Salary... ");
+/*Console.WriteLine("Enter Salary... ");
 
 int salary = Int32.Parse(Console.ReadLine());
 
@@ -99,5 +99,187 @@ else if (salary < 50000)
 else
 {
     Console.WriteLine("MASHALLAH!");
+}*/
+
+// Switch Case
+/*Console.WriteLine("Enter number for days from 1 to 7:");
+int number = Convert.ToInt32(Console.ReadLine());
+
+switch(number)
+{
+    case 1:
+        Console.WriteLine("Monday");
+        break;
+    case 2:
+        Console.WriteLine("Tuesday");
+        break;
+    case 3:
+        Console.WriteLine("Wednesday");
+        break;
+    case 4:
+        Console.WriteLine("Thursday");
+        break;
+    case 5:
+        Console.WriteLine("Friday");
+        break;
+    case 6:
+        Console.WriteLine("Saturday");
+        break;
+    case 7:
+        Console.WriteLine("Sunday");
+        break;
+
+}*/
+/*
+int a = 525;
+Console.WriteLine($"this is string interpolation {a*2}");// String Interpolation $" {}"*/
+
+
+/*for(int i = 0; i <= 23; i++)
+{
+    Console.WriteLine(i);
+}*/
+
+//for(int i = 10; i > 0 ; i--)
+//{
+//    Console.WriteLine(i);
+//}
+
+
+//for (int i = 1; i < 101; i++)
+//{
+//    if(i%2 != 0)
+//    {
+//        Console.WriteLine(i);
+//    }
+//}
+
+//While Loop
+
+//int j = 13;
+
+//while(j < 13)
+//{
+//    Console.WriteLine("J");
+//    j--;
+//}
+
+//Do While Loop
+
+//int j = 13;
+
+//do
+//{
+//    Console.WriteLine("J");
+//    j++;
+//}while(j < 13);
+
+//Even / Odd
+/*int num;
+char ans;
+
+do
+{
+    Console.WriteLine("Enter a Number");
+    num = Convert.ToInt32(Console.ReadLine());
+
+    if (num % 2 == 0)
+    {
+        Console.WriteLine("Even Number");
+    }
+    else
+    {
+        Console.WriteLine("Odd number");
+    }
+    Console.WriteLine("Do you want to continue Press y for yes and any key to exit");
+
+    ans = Convert.ToChar(Console.ReadLine());
+} while (ans == 'Y' || ans == 'y');*/
+
+//Array with fixed size
+
+/*int[] numbers = new int[4]; //only 4 elemnts will come in this array
+
+
+numbers[0] = 2;
+numbers[1] = 12;
+numbers[2] = 22;
+numbers[3] = 32;
+
+
+Console.WriteLine(numbers[0]);
+
+int[] stdMarks = { 67, 88, 99, 70 };
+
+//foreach
+foreach (int n in stdMarks)
+{
+    Console.WriteLine(n);
+}*/
+
+//Console.WriteLine(Math.Pow(2, 2));
+
+//int[] numbers = new int[4]; //C# give default value to uninitialized variables int=0, sting = null, bool= true 
+
+//Console.WriteLine(numbers);
+
+string[] cities = { "Karachi", "Lahore", "Isb", "Multan", "Karachi", "Swat", "Sialkot", "Pindi", "Karachi" };
+
+//Array.Sort(cities);
+//Array.Reverse(cities);
+/*foreach (string n in cities)
+{
+    Console.WriteLine(n);
+}*/
+
+//Console.WriteLine(Array.IndexOf(cities, "Swat"));
+
+//Console.WriteLine(Array.LastIndexOf(cities, "Karachi"));
+
+for(int i = 0; i < cities.Length; i++)
+{
+    Console.WriteLine(cities[i]);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

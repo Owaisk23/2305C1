@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Desktop\\2305C1\\C#\\Basics\\Basics\\Program.cs",
               "RelativeDocumentMoniker": "Basics\\Program.cs",
-              "ToolTip": "Z:\\Desktop\\2305C1\\C#\\Basics\\Basics\\Program.cs",
-              "RelativeToolTip": "Basics\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
+              "ToolTip": "Z:\\Desktop\\2305C1\\C#\\Basics\\Basics\\Program.cs*",
+              "RelativeToolTip": "Basics\\Program.cs*",
+              "ViewState": "AgIAANoAAAAAAAAAAAAkwPEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T09:32:59.118Z",
               "EditorCaption": ""
