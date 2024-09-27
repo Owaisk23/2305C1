@@ -223,7 +223,7 @@ foreach (int n in stdMarks)
 
 //Console.WriteLine(numbers);
 
-string[] cities = { "Karachi", "Lahore", "Isb", "Multan", "Karachi", "Swat", "Sialkot", "Pindi", "Karachi" };
+//string[] cities = { "Karachi", "Lahore", "Isb", "Multan", "Karachi", "Swat", "Sialkot", "Pindi", "Karachi" };
 
 //Array.Sort(cities);
 //Array.Reverse(cities);
@@ -236,10 +236,130 @@ string[] cities = { "Karachi", "Lahore", "Isb", "Multan", "Karachi", "Swat", "Si
 
 //Console.WriteLine(Array.LastIndexOf(cities, "Karachi"));
 
-for(int i = 0; i < cities.Length; i++)
+//for(int i = 0; i < cities.Length; i++)
+//{
+//    Console.WriteLine(cities[i]);
+//}
+
+// Multidimensional array(Array inside array) 20 ,40 etc
+
+//int[,] TopMarks =
+//{
+//    {97, 99},
+//    {87, 83},
+//    {77, 79},
+//    {65, 69}
+//};
+//Console.WriteLine(TopMarks[3, 1]);
+
+
+//for (int i = 0; i < TopMarks.GetLength(0); i++)
+//{
+//    Console.WriteLine($"Printing {i + 1} array");
+
+//    for (int j = 0; j < TopMarks.GetLength(1); j++)
+//    {
+//        Console.WriteLine(TopMarks[i, j]);
+//    }
+//    Console.WriteLine();
+//}
+
+// jagged Array (size of sub-array is not fixed)
+
+//string[][] skillSet =
+//{
+//    new string[4]{"c#", "sql", "css", "html"},
+//    new string[1]{"php"},
+//    new string[2]{"javascript", "typescript"},
+//    new string[3]{"bootstrap", "figma", "sqlserver"}
+//};
+
+//Console.WriteLine(skillSet[3][2]);
+
+
+//var decides the datatype on runtime
+
+//foreach(var skills in skillSet)
+//{
+//    foreach(var skill in skills)
+//    {
+//        Console.WriteLine(skill);
+//    }
+//}
+
+//Functions
+
+//user define functions
+//add();
+
+//1. No Return No Parameter
+//return type function name () { body }
+
+//function create
+//void Greet()
+//{
+//    Console.WriteLine("Hi, Owais!! Welcome to our company..");
+//}
+
+////function calling
+//Greet();
+
+//2. No Return with Parameters
+
+//void Greet(string name)
+//{
+//    Console.WriteLine($"Hi, {name}!! Welcome to our company..");
+//}
+
+////function calling
+//Greet("Haseeb");
+//Greet("Azhar");
+//Greet("Taha");
+
+//3. Return with no Parameter
+
+//string Greet()
+//{
+//    return("Hi, User!! Welcome to our company");
+//}
+
+////Console.WriteLine(Greet());
+
+//string messg = Greet();
+
+//Console.WriteLine(messg.ToUpper());
+
+//float floatNumbers()
+//{
+//    return (0.7323f);
+//}
+
+//Console.WriteLine(floatNumbers());
+
+//float fNum = floatNumbers();
+//Console.WriteLine(fNum);
+
+//4. Return with parameters
+// \n is used to take next line.
+string Greet(string name, byte age)
 {
-    Console.WriteLine(cities[i]);
+    return ($"Hi, {name}, Welcome to our company. \n Your age is {age}");
 }
+
+string mssg = Greet("Jeethalaal", 45);
+Console.WriteLine(mssg.ToUpper());
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
