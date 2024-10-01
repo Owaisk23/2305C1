@@ -341,15 +341,178 @@ foreach (int n in stdMarks)
 
 //4. Return with parameters
 // \n is used to take next line.
-string Greet(string name, byte age)
+//string Greet(string name, byte age)
+//{
+//    return ($"Hi, {name}, Welcome to our company. \n Your age is {age}");
+//}
+
+//string mssg = Greet("Jeethalaal", 45);
+//Console.WriteLine(mssg.ToUpper());
+
+//2. Pre Defined
+
+//Math.Sqrt(49); Console.WriteLine("skill");
+
+
+
+//1 . Make 2 jagged arrays.
+//2. Create a function to print them.
+
+//exception handling (try | catch )
+//try
+//{
+//    //Code to execute
+//    int number = Convert.ToInt32(Console.ReadLine());
+//    switch (number)
+//    {
+//        case 1:
+//            Console.WriteLine("Hi");
+//            break;
+//        case 2:
+
+//            Console.WriteLine("Hi , Hi");
+
+//            break;
+//        case 3:
+//            Console.WriteLine("Hi,hello, hi");
+//            break;
+//        case 4:
+//            Console.WriteLine("Hi,hello, hi, hello");
+//            break;
+
+//        default:
+//            Console.WriteLine("bye");
+//            break;
+//    }
+//}
+//catch (DivideByZeroException e)
+//{
+//    //Print a message on exception
+//    Console.WriteLine("Can't Divide by zero");
+
+//}
+//catch (FormatException e)
+//{
+//    //Print a message on exception
+//    Console.WriteLine("Invalid input we want an integer from you." + e);
+//}
+//catch (Exception e)
+//{
+//    //Print a message on exception
+//    Console.WriteLine("Oops, Something went wrong.");
+//}
+//finally
+//{
+//    Console.WriteLine("Thanks for using our console application. Do recommend it to others :)");
+//}
+
+
+//Collections
+
+//Generics collection
+//fixed Datatype
+//dynamic size
+//List, Dictionary, Stack, Queues
+
+//Non-Generics collection
+// Datatype not fixed
+//dynamic size
+//ArrayList, Hashtable
+
+using System.Collections;
+using System.Linq;
+
+//Generics
+//List
+
+List<string> SuperCars = new List<string>();
+SuperCars.Add("Ferrari");
+SuperCars.Add("Lamborghini");
+SuperCars.Add("Buggati Chiron");
+
+
+List<string> Cars = new List<string>();
+
+Cars.Add("Honda civic");
+Cars.Add("Honda Accord");
+Cars.Add("Toyota Camry");
+Cars.Add("toyota Fortuner");
+Cars.Add("Suzuki Cultus");
+Cars.Add("Toyota vitz");
+
+////Cars.Remove("Toyota vitz");
+////Cars.RemoveAt(3
+////
+//Console.WriteLine(Cars.Contains("Toyota Revo"));
+//Cars.Insert(1, "Toyota Revo");
+//Console.WriteLine(Cars.Contains("Toyota Revo"));
+
+Cars.AddRange(SuperCars);
+
+////Cars.RemoveRange(0,2);
+
+////Cars.Clear();
+
+//Console.WriteLine(Cars.Contains("Toyota Revo"));
+
+
+////Console.WriteLine(Cars[4]);
+foreach (string car in Cars)
 {
-    return ($"Hi, {name}, Welcome to our company. \n Your age is {age}");
+    Console.WriteLine(car);
 }
 
-string mssg = Greet("Jeethalaal", 45);
-Console.WriteLine(mssg.ToUpper());
+
+//Queues  (fifo: first in first out)
+//Queue<string> names = new Queue<string>();
+//names.Enqueue("Owais");
+//names.Enqueue("ahmed");
+//names.Enqueue("ashar");
+//names.Enqueue("rayan");
+//names.Enqueue("yaheya");
+//names.Enqueue("abdullah");
+//names.Enqueue("talha");
+//names.Enqueue("danish");
+//names.Enqueue("sohaib");
 
 
+//names.Dequeue();
+//names.Dequeue();
+//names.Dequeue();
+//names.Dequeue();
+
+//    names.Clear();
+
+//foreach (string item in names)
+//{
+//    Console.WriteLine(item);
+//}
+
+
+
+//Stack (lifo: last in first out)
+
+//Stack<string> SecondRow = new Stack<string>();
+//SecondRow.Push("Aisha");
+//SecondRow.Push("ashbal");
+//SecondRow.Push("mariam");
+//SecondRow.Push("muzammil");
+//SecondRow.Push("basit");
+
+
+
+
+//SecondRow.Pop();
+//SecondRow.Pop();
+//SecondRow.Pop();
+//SecondRow.Pop();
+
+//SecondRow.Clear();
+
+//foreach (string item in SecondRow)
+//{
+//    Console.WriteLine(item);
+//}
 
 
 
