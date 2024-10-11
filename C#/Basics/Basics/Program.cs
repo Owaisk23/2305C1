@@ -419,35 +419,35 @@ foreach (int n in stdMarks)
 //dynamic size
 //ArrayList, Hashtable
 
-using System.Collections;
+//using System.Collections;
 using System.Linq;
 
 //Generics
 //List
 
-List<string> SuperCars = new List<string>();
-SuperCars.Add("Ferrari");
-SuperCars.Add("Lamborghini");
-SuperCars.Add("Buggati Chiron");
+//List<string> SuperCars = new List<string>();
+//SuperCars.Add("Ferrari");
+//SuperCars.Add("Lamborghini");
+//SuperCars.Add("Buggati Chiron");
 
 
-List<string> Cars = new List<string>();
+//List<string> Cars = new List<string>();
 
-Cars.Add("Honda civic");
-Cars.Add("Honda Accord");
-Cars.Add("Toyota Camry");
-Cars.Add("toyota Fortuner");
-Cars.Add("Suzuki Cultus");
-Cars.Add("Toyota vitz");
+//Cars.Add("Honda civic");
+//Cars.Add("Honda Accord");
+//Cars.Add("Toyota Camry");
+//Cars.Add("toyota Fortuner");
+//Cars.Add("Suzuki Cultus");
+//Cars.Add("Toyota vitz");
 
 ////Cars.Remove("Toyota vitz");
-////Cars.RemoveAt(3
+////Cars.RemoveAt(3)
 ////
 //Console.WriteLine(Cars.Contains("Toyota Revo"));
 //Cars.Insert(1, "Toyota Revo");
 //Console.WriteLine(Cars.Contains("Toyota Revo"));
 
-Cars.AddRange(SuperCars);
+//Cars.AddRange(SuperCars);
 
 ////Cars.RemoveRange(0,2);
 
@@ -457,10 +457,10 @@ Cars.AddRange(SuperCars);
 
 
 ////Console.WriteLine(Cars[4]);
-foreach (string car in Cars)
-{
-    Console.WriteLine(car);
-}
+//foreach (string car in Cars)
+//{
+//    Console.WriteLine(car);
+//}
 
 
 //Queues  (fifo: first in first out)
@@ -476,10 +476,10 @@ foreach (string car in Cars)
 //names.Enqueue("sohaib");
 
 
-//names.Dequeue();
-//names.Dequeue();
-//names.Dequeue();
-//names.Dequeue();
+//names.Dequeue(); //Owais
+//names.Dequeue(); //ahmed
+//names.Dequeue(); //ashar
+//names.Dequeue(); //rayan
 
 //    names.Clear();
 
@@ -514,6 +514,192 @@ foreach (string car in Cars)
 //    Console.WriteLine(item);
 //}
 
+
+
+using System.Collections;
+////Dictionaries(Generics)
+//Dictionary<string, string> user = new Dictionary<string, string>();
+//user.Add("username", "owaisk23");
+//user.Add("email", "owaisk23@gmail.com");
+//user.Add("pass", "abcdefghij");
+//user.Add("role", "admin");
+//user.Add("image", "owaisk.jpg");
+
+//Console.WriteLine(user["role"]);
+////user.Remove("image");
+//Console.WriteLine(user["image"]);
+
+//foreach (var item in user)
+//{
+//    string[] test = (item.ToString()).Split(",");
+//    string key = test[0].Trim('[');// [
+//    string value = test[1].Trim(']');// ]
+//    //Console.WriteLine(key);
+//    //Console.WriteLine(value);
+//    Console.WriteLine($"The property is : {key} and  value is : {value}");
+//    //Console.WriteLine(test[1]);
+//}
+
+//Hashtables (Non generic)(no fixed datatype)
+
+//Hashtable user = new Hashtable();
+//user.Add("username", "owaisk23");
+//user.Add("email", "owaisk23@gmail.com");
+//user.Add("pass", 54544454544);
+//user.Add("isadmin", true);
+//user.Add("image", "owaisk23.jpg");
+
+////Console.WriteLine(user["isadmin"]);
+////user.Remove("image");
+////user.Contains(2.45);//true
+////user.ContainsValue(true);//true
+
+//////Console.WriteLine(user["role"]);
+//foreach (DictionaryEntry item in user)
+//{
+//    Console.WriteLine(item.Key + " : " + item.Value);
+//}
+//Console.WriteLine(user.GetHashCode());
+
+//ArrayList (Non Generic)(no fixed datatype)
+//ArrayList Cars = new ArrayList();
+
+//Cars.Add("Honda civic");
+//Cars.Add("Honda Accord");
+//Cars.Add("Toyota Camry");
+//Cars.Add("toyota Fortuner");
+//Cars.Add(240900);
+//Cars.Add(.24f);
+
+//Cars.Remove("Toyota vitz");
+//Cars.RemoveAt(3)
+//
+//Console.WriteLine(Cars.Contains("Toyota Revo"));
+//Cars.Insert(1, "Toyota Revo");
+//Console.WriteLine(Cars.Contains("Toyota Revo"));
+//Cars.RemoveRange(0,2);
+//Cars.Clear();
+//Console.WriteLine(Cars.Contains("Toyota Revo"));
+
+//Console.WriteLine(Cars[4]);
+//foreach (var car in Cars)
+//{
+//    Console.WriteLine(car);
+//}
+
+
+//String Methods
+
+//string test = """{ "name": "John Doe"}""";
+
+using System.Collections;
+
+//string test = "we are  Learnnig \"C#\"";
+//Console.WriteLine(test);
+//Console.WriteLine(test.Replace("Learnnig", "Mastering"));
+//Console.WriteLine(test.Replace("C#", "Java"));
+
+//string email = "hdkjhdkjhkhf";
+//int age = 75;
+
+//login start
+
+//login end
+
+
+//CODING Best Practices
+// Indentation (Readable by using spaces and new lines) 
+// Comments //Sir yahan switch case shuru kia ha
+// Meaningful identifiers (variable names)
+// errors (exception handling) 
+//less repeatation
+
+//OOP
+//Objects and Classes
+
+//Aeroplane Boeing707 = new Aeroplane();//default constructor
+
+
+//Boeing707.Name = "Boeing 707";
+//Boeing707.takeOff();
+//Console.WriteLine(Boeing707.AirLine);
+
+//Aeroplane f16 = new Aeroplane("PAF");
+//f16.takeOff();
+
+//Aeroplane f17 = new Aeroplane("PAF","F-17 Thunder",2,2,"8500hp");
+//f17.takeOff();
+//f17.land();
+
+//public class Aeroplane
+//{
+//    public string? AirLine;
+//    public string? Name;
+//    public int Seats;
+//    public int Crew;
+//    public string? Power;
+
+//    //Contstructor
+//    public Aeroplane()
+//    {
+//        this.AirLine = "Not specified";
+//        this.Name = "unknown";
+//        this.Seats = 0;
+//        this.Crew = 0;
+//        this.Power = null;
+//    }
+
+//    public Aeroplane(string AirLine)
+//    {
+//        this.AirLine = AirLine;
+//        this.Name = "unknown";
+//        this.Seats = 0;
+//        this.Crew = 0;
+//        this.Power = null;
+//    }
+
+
+//    //    //Paremeterized constructor (Overloading)
+//    public Aeroplane(string ALine, string name, int seat, int crew, string pow)
+//    {
+//        this.AirLine = ALine;
+//        this.Name = name;
+//        this.Seats = seat;
+//        this.Crew = crew;
+//        this.Power = pow;
+//    }
+//    public void takeOff()
+//    {
+//        Console.WriteLine($"{this.Name} is taking off. Best Wishes..!");
+//    }
+//    public void land()
+//    {
+//        Console.WriteLine($"{this.Name} is Landing at the 4th runway..! ");
+//    }
+
+//}
+
+//OOP (OBJECT ORIENTED PROGRAMMING)
+//it is an approach to code cleaner and better.
+//readable
+//reusable
+//optimize
+//proper structure of the code is maintained.
+
+//Main Pillars of OOP
+
+//1. Interitance
+// i . Single level inheritance  Vehicle -> Car
+// ii . Multi level inheritance  Vehicle -> Car -> Ecar
+// iii. Heirarchical inheritance Vehicle ->Car , Vehicle-> Bike
+// iv. Multiple inheritance  
+// v. Hybrid inheritance    Vehicle -> CAR , Vehicle -> Car -> Ecar, Car-> Ecar
+
+//2. Polymorphism
+// Method Overloading
+// Method Overriding
+//3. Abstraction
+//4. Encapsulation
 
 
 
