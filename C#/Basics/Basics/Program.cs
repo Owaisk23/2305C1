@@ -701,6 +701,57 @@ using System.Collections;
 //3. Abstraction
 //4. Encapsulation
 
+//Inheritance
+Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
+abc.Run();
+
+Car mercedez = new Car("TZ-8908", "Black", "Mercedez", "Benz C-Class", 20000000);
+//mercedez.Run();
+mercedez.Run(500);
+
+//// Parent class | Base Class | Super Class
+public class Vehicle
+{
+    public string regNo;
+    public string color;
+
+    public Vehicle(string regno, string color)
+    {
+        this.regNo = regno;
+        this.color = color;
+    }
+    public void Run()
+    {
+        Console.WriteLine($"{this.regNo} vehicle started running");
+    }
+}
+// Child class | Derived Class | Sub Class
+public class Car : Vehicle
+{
+
+    public string brand;
+    public string model;
+    public int price;
+
+    public Car(string regno, string color, string brand, string model, int price) : base(regno, color)
+    {
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+    }
+
+    //method overriding
+    public void Run()
+    {
+        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
+    }
+    //method overloading
+    public void Run(int speed)
+    {
+        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
+    }
+
+}
 
 
 
