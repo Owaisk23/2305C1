@@ -702,49 +702,129 @@ using System.Collections;
 //4. Encapsulation
 
 //Inheritance
-Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
-abc.Run();
+//Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
+//abc.Run();
 
-Car mercedez = new Car("TZ-8908", "Black", "Mercedez", "Benz C-Class", 20000000);
-//mercedez.Run();
-mercedez.Run(500);
+//Car mercedez = new Car("TZ-8908", "Black", "Mercedez", "Benz C-Class", 20000000);
+////mercedez.Run();
+//mercedez.Run(500);
 
-//// Parent class | Base Class | Super Class
-public class Vehicle
+////// Parent class | Base Class | Super Class
+//public class Vehicle
+//{
+//    public string regNo;
+//    public string color;
+
+//    public Vehicle(string regno, string color)
+//    {
+//        this.regNo = regno;
+//        this.color = color;
+//    }
+//    public void Run()
+//    {
+//        Console.WriteLine($"{this.regNo} vehicle started running");
+//    }
+//}
+////// Child class | Derived Class | Sub Class
+//public class Car : Vehicle
+//{
+
+//    public string brand;
+//    public string model;
+//    public int price;
+
+//    public Car(string regno, string color, string brand, string model, int price) : base(regno, color)
+//    {
+//        this.brand = brand;
+//        this.model = model;
+//        this.price = price;
+//    }
+
+//    //method overriding
+//    public void Run()
+//    {
+//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
+//    }
+//    //method overloading
+//    public void Run(int speed)
+//    {
+//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
+//    }
+
+//}
+
+//Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
+//abc.Run();
+
+//Car MarkX = new Car("2008", "Black", "Toyota", "Mark X", 3500000);
+//Car a = new Car("2008", "Black", "Toyota", "Mark X", 3500000);
+//Car b = new Car("2008", "Black", "Toyota", "Mark X", 3500000);
+//Car bv = new Car("2008", "Black", "Toyota", "Mark X", 3500000);
+//Car g = new Car("2008", "Black", "Toyota", "Mark X", 3500000);
+//Car MadrkX = new Car("2008", "Black", "Toyota", "Mark X", 3500000);
+
+
+//MarkX.Run();
+//MarkX.Run(300);
+
+//Math abc = new Math();
+//abc.Sqrt(49);
+
+//static function examples:
+Math.Sqrt(49);
+Console.WriteLine("dkf");
+
+Console.WriteLine(Car.totalCars);
+Car.paytax();
+
+
+
+abstract public class Vehicle
 {
     public string regNo;
     public string color;
 
-    public Vehicle(string regno, string color)
-    {
-        this.regNo = regno;
-        this.color = color;
-    }
-    public void Run()
+    public static int totalCars = 0;
+    public static int totalAmount = 0;
+    public static int payingCars = 0;
+    public static int nonPayingCars = 0;
+    public virtual void Run()
     {
         Console.WriteLine($"{this.regNo} vehicle started running");
+
     }
 }
-// Child class | Derived Class | Sub Class
-public class Car : Vehicle
+abstract public class Car : Vehicle
 {
-
     public string brand;
     public string model;
     public int price;
-
-    public Car(string regno, string color, string brand, string model, int price) : base(regno, color)
+    public int basePrice = 2;
+    public static int carCount = 0;
+    public Car(string regno, string color, string brand, string model, int price)
     {
+        this.regNo = regno;
+        this.color = color;
         this.brand = brand;
         this.model = model;
         this.price = price;
+        totalCars++;
+        carCount++;
     }
+    public static void paytax()
+    {
+        Console.WriteLine("Boom..! the race has begun. May the best be winner.");
+        //payingCars++;
+        //totalAmount += this.basePrice;
 
+    }
     //method overriding
-    public void Run()
+    public void passWithoutPaying()
     {
         Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
+        nonPayingCars++;
     }
+
     //method overloading
     public void Run(int speed)
     {
@@ -752,7 +832,6 @@ public class Car : Vehicle
     }
 
 }
-
 
 
 
