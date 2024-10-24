@@ -771,68 +771,200 @@ using System.Collections;
 //abc.Sqrt(49);
 
 //static function examples:
-Math.Sqrt(49);
-Console.WriteLine("dkf");
+//Math.Sqrt(49);
+//Console.WriteLine("dkf");
 
-Console.WriteLine(Car.totalCars);
-Car.paytax();
+//Console.WriteLine(Car.totalCars);
+//Car.paytax();
 
 
 
-abstract public class Vehicle
+//abstract public class Vehicle
+//{
+//    public string regNo;
+//    public string color;
+
+//    public static int totalCars = 0;
+//    public static int totalAmount = 0;
+//    public static int payingCars = 0;
+//    public static int nonPayingCars = 0;
+//    public virtual void Run()
+//    {
+//        Console.WriteLine($"{this.regNo} vehicle started running");
+
+//    }
+//}
+//abstract public class Car : Vehicle
+//{
+//    public string brand;
+//    public string model;
+//    public int price;
+//    public int basePrice = 2;
+//    public static int carCount = 0;
+//    public Car(string regno, string color, string brand, string model, int price)
+//    {
+//        this.regNo = regno;
+//        this.color = color;
+//        this.brand = brand;
+//        this.model = model;
+//        this.price = price;
+//        totalCars++;
+//        carCount++;
+//    }
+//    public static void paytax()
+//    {
+//        Console.WriteLine("Boom..! the race has begun. May the best be winner.");
+//        //payingCars++;
+//        //totalAmount += this.basePrice;
+
+//    }
+//    //method overriding
+//    public void passWithoutPaying()
+//    {
+//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
+//        nonPayingCars++;
+//    }
+
+//    //method overloading
+//    public void Run(int speed)
+//    {
+//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
+//    }
+
+//}
+
+//Interfaces
+////FrontEndDeveloper ashar = new FrontEndDeveloper();
+//ashar.ComplexDesign("Ashar Ahmed");
+//ashar.SimpleDesign();
+
+FullStackDeveloper usama = new FullStackDeveloper();
+usama.SimpleDesign();
+usama.ComplexAPIs();
+
+//interface topics
+//{
+
+//Interfaces,
+//        Static,
+//       Abstract
+//} 
+interface FrontEndDevelopment
 {
-    public string regNo;
-    public string color;
+    public void SimpleDesign();
+    public void ComplexDesign(string name);
 
-    public static int totalCars = 0;
-    public static int totalAmount = 0;
-    public static int payingCars = 0;
-    public static int nonPayingCars = 0;
-    public virtual void Run()
+}
+
+
+interface BackEndDevelopment
+{
+    public void SimpleCrud();
+    public void ComplexAPIs();
+    public void Authentication();
+
+}
+
+//public class FrontEndDeveloper : FrontEndDevelopment
+//{
+//    //method implementation
+//    public void SimpleDesign()
+//    {
+//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+//    }
+//    public void ComplexDesign(string name)
+//    {
+//        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, " +
+//            $"Nextjs.");
+//    }
+
+//}
+
+
+
+//Multiple Inheritance
+public class FullStackDeveloper : FrontEndDevelopment, BackEndDevelopment
+{
+    public void SimpleDesign()
     {
-        Console.WriteLine($"{this.regNo} vehicle started running");
-
+        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+    }
+    public void ComplexDesign(string name)
+    {
+        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, Nextjs.");
+    }
+    public void SimpleCrud()
+    {
+        Console.WriteLine("We will provide you simple crud operations.");
+    }
+    public void ComplexAPIs()
+    {
+        Console.WriteLine($"We will provide you complex APIs.");
+    }
+    public void Authentication()
+    {
+        Console.WriteLine($" We will provide you Authentication.");
     }
 }
-abstract public class Car : Vehicle
-{
-    public string brand;
-    public string model;
-    public int price;
-    public int basePrice = 2;
-    public static int carCount = 0;
-    public Car(string regno, string color, string brand, string model, int price)
-    {
-        this.regNo = regno;
-        this.color = color;
-        this.brand = brand;
-        this.model = model;
-        this.price = price;
-        totalCars++;
-        carCount++;
-    }
-    public static void paytax()
-    {
-        Console.WriteLine("Boom..! the race has begun. May the best be winner.");
-        //payingCars++;
-        //totalAmount += this.basePrice;
 
-    }
-    //method overriding
-    public void passWithoutPaying()
-    {
-        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
-        nonPayingCars++;
-    }
+//Access  Modifiers
+//1. Public     | anyone can access from any where in the program.
+//2. Private    | only owner class can access .
+//3. Protected  | only owner class and child class can access .
 
-    //method overloading
-    public void Run(int speed)
-    {
-        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
-    }
+//Products neckBand = new Products(1500, "Lenovo Neckband" ,"good quality product with extra base and long range connectivity.");
+////neckBand.name="Lenovo Neckband";
+////neckBand.price;
+////neckBand.description;
+////Console.WriteLine(neckBand.price);
 
-}
+////neckBand.showPrice();
+//neckBand.callShowPrice();
 
+//Gadgets iphone = new Gadgets(230000, "iphone 15 pro max", "acha phone ha", "phones");
+//iphone.ShowGadget();
+
+//public class Products
+//{
+//   public string name;
+//   private int price;
+//   protected string description;
+
+//    public Products(int price, string name, string description)
+//    {
+//        this.name = name;
+//        this.price = price;
+//        this.description = description;
+//    }
+
+//    private void showPrice()
+//    {
+//        Console.WriteLine(this.price);
+//    }
+//    public void callShowPrice()
+//    {
+//        this.showPrice();
+//    }
+//}
+
+//public class Gadgets : Products
+//{
+//    public string category;
+
+//    public Gadgets(int price, string name, string description, string category) : base (price, name, description)
+//    {
+//      this.category=category;
+//    }
+
+//    public void ShowGadget()
+//    {
+//        Console.WriteLine(this.name);
+//        this.callShowPrice();
+//        Console.WriteLine(this.description);
+//        Console.WriteLine(this.category);
+
+//    }
+//}  
 
 
 
