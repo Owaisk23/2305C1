@@ -838,9 +838,9 @@ using System.Collections;
 //ashar.ComplexDesign("Ashar Ahmed");
 //ashar.SimpleDesign();
 
-FullStackDeveloper usama = new FullStackDeveloper();
-usama.SimpleDesign();
-usama.ComplexAPIs();
+//FullStackDeveloper usama = new FullStackDeveloper();
+//usama.SimpleDesign();
+//usama.ComplexAPIs();
 
 //interface topics
 //{
@@ -849,21 +849,21 @@ usama.ComplexAPIs();
 //        Static,
 //       Abstract
 //} 
-interface FrontEndDevelopment
-{
-    public void SimpleDesign();
-    public void ComplexDesign(string name);
+//interface FrontEndDevelopment
+//{
+//    public void SimpleDesign();
+//    public void ComplexDesign(string name);
 
-}
+//}
 
 
-interface BackEndDevelopment
-{
-    public void SimpleCrud();
-    public void ComplexAPIs();
-    public void Authentication();
+//interface BackEndDevelopment
+//{
+//    public void SimpleCrud();
+//    public void ComplexAPIs();
+//    public void Authentication();
 
-}
+//}
 
 //public class FrontEndDeveloper : FrontEndDevelopment
 //{
@@ -883,29 +883,29 @@ interface BackEndDevelopment
 
 
 //Multiple Inheritance
-public class FullStackDeveloper : FrontEndDevelopment, BackEndDevelopment
-{
-    public void SimpleDesign()
-    {
-        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
-    }
-    public void ComplexDesign(string name)
-    {
-        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, Nextjs.");
-    }
-    public void SimpleCrud()
-    {
-        Console.WriteLine("We will provide you simple crud operations.");
-    }
-    public void ComplexAPIs()
-    {
-        Console.WriteLine($"We will provide you complex APIs.");
-    }
-    public void Authentication()
-    {
-        Console.WriteLine($" We will provide you Authentication.");
-    }
-}
+//public class FullStackDeveloper : FrontEndDevelopment, BackEndDevelopment
+//{
+//    public void SimpleDesign()
+//    {
+//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+//    }
+//    public void ComplexDesign(string name)
+//    {
+//        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, Nextjs.");
+//    }
+//    public void SimpleCrud()
+//    {
+//        Console.WriteLine("We will provide you simple crud operations.");
+//    }
+//    public void ComplexAPIs()
+//    {
+//        Console.WriteLine($"We will provide you complex APIs.");
+//    }
+//    public void Authentication()
+//    {
+//        Console.WriteLine($" We will provide you Authentication.");
+//    }
+//}
 
 //Access  Modifiers
 //1. Public     | anyone can access from any where in the program.
@@ -966,7 +966,245 @@ public class FullStackDeveloper : FrontEndDevelopment, BackEndDevelopment
 //    }
 //}  
 
+//Delegates
+//Math
+//Math.Cos()
 
+//Normal Delegate
+//MyMaths.MyMathsDelegate Eval = new MyMaths.MyMathsDelegate(MyMaths.Add);
+//Eval(4, 8);
+
+//Multicast Delegate
+
+//MyMaths.MyMathsDelegate MultiEval;
+// MultiEval = MyMaths.Mul;
+//MultiEval(2, 5);
+
+//MultiEval = MyMaths.Div;
+//MultiEval(2, 0);
+
+//MultiEval = MyMaths.Sub;
+//MultiEval(2, 0);
+
+//MyMaths.Sub(4, 2);
+//public class MyMaths
+//{
+//    public delegate void MyMathsDelegate(double num1, double num2);
+
+//    public static void Add(double a, double b)
+//    {
+//        Console.WriteLine(a + b);
+//    }
+//    public static void Sub(double a, int b)
+//    {
+//        Console.WriteLine(a - b);
+//    }
+
+//    public static void Mul(double a, double b)
+//    {
+//        Console.WriteLine(a * b);
+//    }
+//    public static void Div(double a, double b)
+//    {
+//        if(b!=0)
+//        Console.WriteLine(a / b);
+//        else
+//        Console.WriteLine("Can't divide by zero");
+//    }
+//}
+
+
+//Shopping.GetItem buy;
+//buy = Shopping.GetEatables;
+//buy("Jam", 550, "Black current jam with great delight");
+
+//public class Shopping
+//{
+//    public delegate void GetItem(string name, int price, string description);
+
+//    public static void GetEatables(string name, int price, string desc)
+//    {
+//        Console.WriteLine("You have bought eatable {0} at Rs. {1} . {2} .",name , price, desc);//placeholders
+//    } 
+//    public static void GetGadgets(string name, int price, string desc)
+//    {
+//        Console.WriteLine("You have bought gaddet {0} at Rs. {1} . {2} .",name , price, desc);//placeholders
+//    }
+
+
+//}
+
+//unary operator    a++, a--
+//binary operator   a + b; a - b
+//Ternary operator  (condition) ? "hi" : "bye" // 3 operands
+
+//string greet = (10 < 10) ? "hi" : "bye";
+
+//Console.WriteLine(greet);
+
+//getters and setters
+
+//Animal cat = new Animal();
+//cat.Name = "Tom";
+//cat.Age = 40;
+//Console.WriteLine(cat.Age);
+
+
+//public class Animal
+//{
+//    public string? Name { get; set; } //auto complete properties
+//    private int  age;
+
+
+//    public int Age
+//    {
+//        get { return age; }
+
+//        set { 
+
+//            if(value < 10)
+//            {
+
+//            age = value;
+//            }
+//            else
+//            {
+//                age = 10;
+//            }
+//        }
+//    }
+//}
+
+
+
+//enums
+//Implicit typecasting 
+//Explicit typecasting 
+
+
+//Console.WriteLine($"{pakBatters.Fakhar} has jersey no {(int)pakBatters.Fakhar}");
+
+//enum pakBatters
+//{
+//    Babar =56,
+//    Rizwan = 33,
+//    Fakhar =45,
+//    Imad =75
+//}
+
+
+//switch() { }
+
+
+//case (int)pakBatters.Fakhar:
+//    Console.WriteLine("January");
+//    break;
+
+//namespaces : a collection of related classes and sub namespaces.
+
+//using System;
+//using System.Collections;
+//using TaxMangementSytem;
+//using Indexers;
+
+
+//Tax tolltax = new Tax();
+
+//tolltax.amount = 5000;
+
+//Vehicle vehicle = new Vehicle();
+//vehicle.regNum = 4545;
+
+
+
+////Indexers : when we want our object to behave like an array we implement indexers.
+
+//fruits basket = new fruits();
+//basket[0] = "Langra";
+//basket[1] = "Chaunsa";
+//basket[2] = "Daseri";
+//basket[3] = "Sindhri";
+//basket[4] = "Anwer Ritol";
+
+//Console.WriteLine(basket[3]);
+
+//foreach (string item in basket.fruitNames)
+//{
+//    Console.WriteLine(item);
+//}
+
+//Records 
+
+//User ahmed = new User();
+//ahmed.id = 1;
+//ahmed.name = "Ahmed Hassan";
+
+
+//User haris = new User();
+//haris.id = 1;
+//haris.name = "Ahmed Hassan";
+
+
+////Console.WriteLine(ahmed);
+//Console.WriteLine(ahmed == haris);
+
+//User1 talha = new User1();
+//talha.id = 2;
+//talha.name = "Mirza talha";
+
+//User1 abdullah = new User1();
+//abdullah.id = 2;
+//abdullah.name = "Mirza talha";
+
+////Console.WriteLine(talha);
+//Console.WriteLine(talha == abdullah);
+
+//public class User{
+//    public int id { get; set; }
+//    public string? name { get; set; }
+//}
+
+//public record User1
+//{
+//    public int id { get; set; }
+//    public string name { get; set; }
+//}
+
+
+//events
+
+//myCar Civic = new myCar();
+//Civic.speedUp += new myCar.speedCar(myCar.carMoved);
+//Civic.drive();
+
+
+//public class myCar
+//{
+//    public delegate void speedCar();
+//    public event speedCar speedUp;
+//    public int speed = 0;
+
+//    public void drive()
+//    {
+//        for (int i = 1; i < 10; i++)
+//        {
+//            if (i > 5)
+//            {
+//                speedUp();
+//            }
+//            Console.WriteLine($"the car is moving at {i} mph");
+//            System.Threading.Thread.Sleep(1000);
+
+
+//        }
+//    }
+//    public static void carMoved()
+//    {
+//        Console.WriteLine("the speed limit has exceeded");
+//    }
+
+
+//}
 
 
 
