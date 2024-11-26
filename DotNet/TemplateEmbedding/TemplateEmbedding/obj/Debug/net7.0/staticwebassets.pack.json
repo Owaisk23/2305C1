@@ -1,0 +1,885 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TemplateEmbedding.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TemplateEmbedding.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\adminpanel\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\adminpanel\\READ-ME.txt"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\bootstrap-admin-template-free.jpg",
+      "PackagePath": "staticwebassets\\adminpanel\\bootstrap-admin-template-free.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\adminpanel\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\css\\style.css",
+      "PackagePath": "staticwebassets\\adminpanel\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\adminpanel\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\adminpanel\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\adminpanel\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\js\\main.js",
+      "PackagePath": "staticwebassets\\adminpanel\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\adminpanel\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\adminpanel\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\adminpanel\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\.DS_Store",
+      "PackagePath": "staticwebassets\\userpanel\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\Readme.txt",
+      "PackagePath": "staticwebassets\\userpanel\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\.DS_Store",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\details-1.png",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\details-1.png"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\details-2.png",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\details-2.png"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\details-3.png",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\details-3.png"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\details-4.png",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\details-4.png"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\faq.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\faq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\gallery\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\gallery\\gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\gallery\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\gallery\\gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\gallery\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\gallery\\gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\gallery\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\gallery\\gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\gallery\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\gallery\\gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\gallery\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\gallery\\gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\gallery\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\gallery\\gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\gallery\\gallery-8.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\gallery\\gallery-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\hero-bg-2.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\hero-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\hero-img.png",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\hero-img.png"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\testimonials-bg.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\testimonials-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\css\\prb.txt",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\css\\prb.txt"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\userpanel\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\forms\\Readme.txt",
+      "PackagePath": "staticwebassets\\userpanel\\forms\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\forms\\contact.php",
+      "PackagePath": "staticwebassets\\userpanel\\forms\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\owaisahmed\\Desktop\\DotNet\\TemplateEmbedding\\TemplateEmbedding\\wwwroot\\userpanel\\forms\\newsletter.php",
+      "PackagePath": "staticwebassets\\userpanel\\forms\\newsletter.php"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TemplateEmbedding.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TemplateEmbedding.props",
+      "PackagePath": "build\\TemplateEmbedding.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TemplateEmbedding.props",
+      "PackagePath": "buildMultiTargeting\\TemplateEmbedding.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TemplateEmbedding.props",
+      "PackagePath": "buildTransitive\\TemplateEmbedding.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
