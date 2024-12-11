@@ -9,53 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Dbfirst
 build_property.RootNamespace = Dbfirst
-build_property.ProjectDir = \\server3\Faculty_Drive\Owais_Ahmed\dotnet\Dbfirst\Dbfirst\
+build_property.ProjectDir = Z:\Desktop\2305C1\DotNet\Dbfirst\Dbfirst\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = \\server3\Faculty_Drive\Owais_Ahmed\dotnet\Dbfirst\Dbfirst
+build_property.MSBuildProjectDirectory = Z:\Desktop\2305C1\DotNet\Dbfirst\Dbfirst
 build_property._RazorSourceGeneratorDebug = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/Home/AddProduct.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/Home/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/Home/DeleteProduct.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/Home/DeleteProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/Home/DetailProduct.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/Home/DetailProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/Home/EditProduct.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/Home/EditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/Home/Index.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/Home/Privacy.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/Shared/Error.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/Shared/_ValidationScriptsPartial.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/_ViewImports.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/_ViewStart.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[//server3/Faculty_Drive/Owais_Ahmed/dotnet/Dbfirst/Dbfirst/Views/Shared/_Layout.cshtml]
+[Z:/Desktop/2305C1/DotNet/Dbfirst/Dbfirst/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6okqz3srnr
