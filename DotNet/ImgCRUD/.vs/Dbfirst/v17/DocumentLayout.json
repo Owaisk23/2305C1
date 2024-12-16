@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\Desktop\\2305C1\\DotNet\\Dbfirst\\",
-  "Documents": [],
+  "WorkspaceRootPath": "Z:\\Desktop\\2305C1\\DotNet\\ImgCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5814C776-975A-41B8-9C89-B62C89405C6C}|Dbfirst\\Dbfirst.csproj|z:\\desktop\\2305c1\\dotnet\\imgcrud\\dbfirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5814C776-975A-41B8-9C89-B62C89405C6C}|Dbfirst\\Dbfirst.csproj|solutionrelative:dbfirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5814C776-975A-41B8-9C89-B62C89405C6C}|Dbfirst\\Dbfirst.csproj|z:\\desktop\\2305c1\\dotnet\\imgcrud\\dbfirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5814C776-975A-41B8-9C89-B62C89405C6C}|Dbfirst\\Dbfirst.csproj|solutionrelative:dbfirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2305C1\\DotNet\\ImgCRUD\\Dbfirst\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Dbfirst\\Controllers\\HomeController.cs",
+              "ToolTip": "Z:\\Desktop\\2305C1\\DotNet\\ImgCRUD\\Dbfirst\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Dbfirst\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA4wDoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T06:37:42.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2305C1\\DotNet\\ImgCRUD\\Dbfirst\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dbfirst\\Views\\Home\\Index.cshtml",
+              "ToolTip": "Z:\\Desktop\\2305C1\\DotNet\\ImgCRUD\\Dbfirst\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Dbfirst\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T06:30:51.149Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
