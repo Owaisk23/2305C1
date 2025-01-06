@@ -1,0 +1,82 @@
+﻿@model TempEmbeddin2302C2.Models.Item
+@using System.Security.Claims;
+@{ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    // var userId = Convert.ToInt32(ClaimTypes.Sid);
+    var cart = ViewBag.Cart as TempEmbeddin2302C2.Models.Cart;
+    var userId = Convert.ToInt32(Context.Session.GetInt32("UserID"));
+}
+
+<!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                    <img class="img-fluid w-100" src="@Html.DisplayFor(model => model.Image)">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <h1 class="display-5 mb-4">
+                    <h1 class="display-5 mb-4">@Html.DisplayFor(model => model.Name)</h1>
+                   
+                </h1>
+                <p class="mb-4">@Html.DisplayFor(model => model.Description)</p>
+                <p><i class="fa fa-check text-primary me-3"></i>Rs. @Html.DisplayFor(model => model.Price)</p>
+                <form asp-action="AddtoCart">
+                    <input type="number" asp-for="@cart.Qty" value="1" min="1" max="10" class="form-control" />
+                    <input type="hidden" asp-for="@cart.Price" value="@Model.Price" class="form-control" />
+                    <input type="hidden" asp-for="@cart.UserId" value="@userId" class="form-control" />
+                    <input type="hidden" asp-for="@cart.ItemId" value="@Model.Id" class="form-control" />
+
+                    <button type="submit" class="btn btn-primary rounded-pill py-3 px-5 mt-3" > Add to cart</button>
+                </form>
+               
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+@* <h1>Details</h1>
+
+<div>
+    <h4>Item</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cat.CatId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div> *@

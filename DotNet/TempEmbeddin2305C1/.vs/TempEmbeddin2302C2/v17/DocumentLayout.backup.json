@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\models\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\models\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\views\\home\\mycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\views\\home\\mycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\2302c2_mvc_core-main\\tempembeddin2302c2\\tempembeddin2302c2\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E58788-E5EF-477B-8611-2803DC46A0FA}|TempEmbeddin2302C2\\TempEmbeddin2302C2.csproj|solutionrelative:tempembeddin2302c2\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAADwv1UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:30:51.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T07:21:51.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T07:11:20.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAswHQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:05:36.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAswGgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:33:52.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAADwv3cAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:05:36.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Models\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Models\\CartViewModel.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Models\\CartViewModel.cs",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Models\\CartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:05:36.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Views\\Home\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Views\\Home\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Views\\Home\\Checkout.cshtml",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Views\\Home\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T11:05:36.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Models\\Item.cs",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:05:36.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T11:05:36.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:05:36.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Models\\Order.cs",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:05:36.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Views\\Home\\MyCart.cshtml",
+              "RelativeDocumentMoniker": "TempEmbeddin2302C2\\Views\\Home\\MyCart.cshtml",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\2302C2_MVC_CORE-main\\TempEmbeddin2302C2\\TempEmbeddin2302C2\\Views\\Home\\MyCart.cshtml",
+              "RelativeToolTip": "TempEmbeddin2302C2\\Views\\Home\\MyCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T11:05:36.312Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

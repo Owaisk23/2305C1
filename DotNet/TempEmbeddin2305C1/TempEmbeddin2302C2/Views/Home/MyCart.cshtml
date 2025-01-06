@@ -1,0 +1,88 @@
+﻿@model IEnumerable<_2302b1TempEmbedding.Models.CartViewModel>
+@using System.Security.Claims;
+
+@{
+    ViewData["Title"] = "My Cart";
+    var userRole = Context.Session.GetString("Role");
+    int UserID = Convert.ToInt32(Context.Session.GetInt32("UserID"));
+    var total = 0;
+
+}
+
+<h2>My Cart</h2>
+
+<table class="table table-bordered m-5">
+    <thead>
+        <tr>
+            <th>Product Name @userRole</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity</th> 
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            total += item.TotalPrice;
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Description</td>
+                <td>@item.Price</td>
+                 @* <td>@item.Quantity</td> *@
+                @* <td >@item.TotalPrice</td> *@
+                <td>
+                    <form asp-action="UpdateQuantity" method="post" class="form-group">
+                        <input type="hidden" name="cartId" value="@item.CartId" />
+                        <input class="price" type="hidden" name="price" value="@item.Price" />
+                        <input class="quantityInpt" type="number" name="quantity" value="@item.Quantity" min="1" class="form-control" style="width: 80px;" />
+                          @* <button type="submit" class="btn btn-sm btn-primary mt-2">Update</button> *@
+                    </form>
+                </td>
+                <td class="totalPrice">@item.TotalPrice</td>
+                <td>
+                    <form asp-action="RemoveFromCart" method="post">
+                        <input type="hidden" name="cartId" value="@item.CartId" />
+                        <button type="submit" class="btn btn-sm btn-danger">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h1>
+    Subtotal : Rs. @total
+
+</h1>
+<a type="submit" class="btn btn-primary" asp-action="Checkout" asp-controller="Home" asp-route-userid="@UserID" asp-route-total="@total">Proceed to Checkout</a>
+
+
+<p>
+@*     <form asp-action="UpdateQuantity" method="post" class="form-group">
+           <input type="hidden" name="cartId" value="@item.CartId" />
+           <input type="number" name="quantity" value="@item.Quantity" min="1" class="form-control" style="width: 80px;" />
+           <button type="submit"  class="btn btn-primary">Proceed to Checkout</button>
+        
+       </form> *@
+
+</p>
+
+
+
+<script>
+
+
+    let quantityInpt = document.querySelectorAll('.quantityInpt');
+    let price = document.querySelectorAll('.price');
+    let totalPrice = document.querySelectorAll('.totalPrice');
+    quantityInpt.forEach((qInpt,i) => {
+        qInpt.addEventListener('change', () => {
+            console.log(price[i].value * qInpt.value);
+            totalPrice[i].innerText = price[i].value * qInpt.value;
+    });
+
+    })
+
+</script>
+

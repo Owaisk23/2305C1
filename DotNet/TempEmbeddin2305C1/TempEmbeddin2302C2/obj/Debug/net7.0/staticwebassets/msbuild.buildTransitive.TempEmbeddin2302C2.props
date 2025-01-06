@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TempEmbeddin2302C2.props" />
+</Project>

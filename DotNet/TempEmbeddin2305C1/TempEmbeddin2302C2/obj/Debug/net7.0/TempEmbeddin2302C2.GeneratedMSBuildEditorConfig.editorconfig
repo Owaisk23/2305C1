@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TempEmbeddin2302C2
+build_property.RootNamespace = TempEmbeddin2302C2
+build_property.ProjectDir = C:\Users\owaisahmed\OneDrive - Dawood University of Engineering Technology\Desktop\DOTNET\2302C2_MVC_CORE-main\TempEmbeddin2302C2\TempEmbeddin2302C2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\owaisahmed\OneDrive - Dawood University of Engineering Technology\Desktop\DOTNET\2302C2_MVC_CORE-main\TempEmbeddin2302C2\TempEmbeddin2302C2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Admin/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Auth/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Client/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Home/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Home/MyCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeUNhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Home/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Item/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Item/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Item/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Item/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Shared/Client.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENsaWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owaisahmed/OneDrive - Dawood University of Engineering Technology/Desktop/DOTNET/2302C2_MVC_CORE-main/TempEmbeddin2302C2/TempEmbeddin2302C2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3tewqm2ga2
